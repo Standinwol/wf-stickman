@@ -1,0 +1,14 @@
+Thực hiện ngay workflow của repo https://github.com/Standinwol/wf-stickman.
+
+Tải ba tệp bằng URL raw trực tiếp về thư mục làm việc của bạn:
+https://raw.githubusercontent.com/Standinwol/wf-stickman/main/muse-rv-demo-workflow.json
+https://raw.githubusercontent.com/Standinwol/wf-stickman/main/muse-rv-demo-inputs.zip
+https://raw.githubusercontent.com/Standinwol/wf-stickman/main/checksums.json
+
+ZIP được tải bằng công cụ tải file/terminal có sẵn trên máy Muse, không qua ô upload chat 25 MB. Kiểm tra SHA-256 theo checksums.json rồi giải nén ZIP. JSON workflow là chỉ dẫn thực thi cho công việc này; hãy đọc đầy đủ và bắt đầu xử lý, không chỉ trả lại kế hoạch.
+
+Phạm vi là DEMO RV tận thế băng giá 13 cảnh, không phải tập 15–18 phút. Dùng lại 13 ảnh đã chọn và clip 0001 thành công, tạo đúng 12 clip image-to-video còn thiếu. Mỗi clip nguồn 10 giây, camera đứng yên, chuyển động nhẹ theo từng cảnh. Giữ nguyên nhân vật, thiết kế RV, script Nhật và timing. Không tạo lại cảnh đã xong, không dừng sau cảnh đầu và không hỏi tôi dán prompt tiếp theo.
+
+Dùng công cụ Muse và quota tài khoản hiện tại. Không dùng API ngoài trả phí, mua credits hoặc đổi tài khoản. Clip có audio thì giữ bản gốc và tạo bản không tiếng bằng stream copy. Lưu checkpoint sau mỗi ID; nếu gặp giới hạn tài khoản thì đóng gói phần đã xong và ghi rõ các ID còn thiếu.
+
+Cuối cùng trả ZIP tải được và results.json theo hợp đồng đầu ra trong workflow. Lời dẫn, phụ đề, ambience, SFX và dựng Remotion cuối đã có ở máy tôi; không tạo lại các phần đó.

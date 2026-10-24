@@ -1,0 +1,15 @@
+{
+  "job_id": "rv-ice-ja-demo-muse-batch-v1",
+  "files": [
+    {
+      "file": "muse-rv-demo-workflow.json",
+      "bytes": 75355,
+      "sha256": "3b340275bbcee0f6ec09d763afbe8bbcff00025f6280d248b941905dbf65c4cf"
+    },
+    {
+      "file": "muse-rv-demo-inputs.zip",
+      "bytes": 35675972,
+      "sha256": "d30e6afacc83abf98f6d0b5cf47a4fcb3e10a9a964a00676b40313a3946197a7"
+    }
+  ]
+}

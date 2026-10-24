@@ -1,0 +1,1088 @@
+{
+  "schema_version": "1.0",
+  "job_id": "rv-ice-ja-demo-muse-batch-v1",
+  "created_at_utc": "2026-10-24T06:41:21.333387+00:00",
+  "instruction_language": "vi",
+  "purpose": "Execute one autonomous Muse web asset job for the existing Japanese RV ice-apocalypse demo; process all 13 storyboard IDs and return an editable asset package.",
+  "execution_request_vi": "Đọc toàn bộ JSON và giải nén inputs trước khi chạy. Thực hiện công việc ngay, tự xử lý đủ 13 ID theo thứ tự. Dùng lại ảnh đã chọn và clip 0001 thành công; tạo 12 clip image-to-video còn thiếu. Không chỉ trả một kế hoạch, không dừng sau cảnh đầu, không hỏi lại giữa các cảnh. Tự lưu checkpoint sau từng cảnh, rồi trả một ZIP tải được cùng bảng trạng thái trung thực.",
+  "scope": {
+    "project": "rv-ice-ja-demo",
+    "content_language": "ja-JP",
+    "episode_type": "existing_demo_only",
+    "storyboard_count": 13,
+    "image_count": 13,
+    "caption_page_count": 26,
+    "source_video_count": 13,
+    "new_video_generation_limit": 12,
+    "expected_total_source_video_seconds": 130,
+    "locked_demo_duration_frames": 2571,
+    "locked_demo_fps": 30,
+    "locked_demo_duration_seconds": 85.7,
+    "expand_to_full_episode": false,
+    "rewrite_story_or_japanese": false,
+    "create_voice_or_final_mix": false,
+    "render_final_episode_on_muse": false
+  },
+  "service_policy": {
+    "provider": "Muse web built-in media tools on the currently signed-in account",
+    "external_paid_api": false,
+    "request_api_key": false,
+    "purchase_credits": false,
+    "upgrade_plan": false,
+    "account_switching": false,
+    "use_existing_account_quota_only": true,
+    "if_quota_or_account_limit": "Checkpoint completed IDs, mark remaining IDs blocked, package partial outputs and report the precise service error. Do not purchase, switch account, schedule retries or silently change provider."
+  },
+  "inputs": {
+    "archive": "muse-rv-demo-inputs.zip",
+    "resolve_relative_paths_against": "directory containing extracted inputs/ and context/",
+    "available_scene_image_ids": [
+      "0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006",
+      "0007",
+      "0008",
+      "0009",
+      "0010",
+      "0011",
+      "0012",
+      "0013"
+    ],
+    "available_successful_video_ids": [
+      "0001"
+    ],
+    "asset_manifest": [
+      {
+        "path": "inputs/images/0001.webp",
+        "bytes": 507904,
+        "sha256": "2412f64d349b309c45126d16c8784f6acee468f354f32a30e1dda1df38f3f4fe"
+      },
+      {
+        "path": "inputs/images/0002.png",
+        "bytes": 2469061,
+        "sha256": "cbf428ee78c6d69a5ffd540198185f9ac8aaeca04146d9d909f55ac0a2971e99"
+      },
+      {
+        "path": "inputs/images/0003.png",
+        "bytes": 2226909,
+        "sha256": "889f4f69f70e82ef00a271f2045c2d91a06abb3399cbdfe62b77e08b0a6caebb"
+      },
+      {
+        "path": "inputs/images/0004.png",
+        "bytes": 2325831,
+        "sha256": "3fd45e6193cf252bdff1cf6a151671b6dbba9bb01e17180c95ca5e9674369e4b"
+      },
+      {
+        "path": "inputs/images/0005.png",
+        "bytes": 2530687,
+        "sha256": "57fad19355acb66ab0459fa9649e4ad4774bbff3102fd76e2573344b99d5db15"
+      },
+      {
+        "path": "inputs/images/0006.png",
+        "bytes": 2126379,
+        "sha256": "f4c523c1dd97faf2ce0bf659928701c370257c81c2b307851ca614207dc6561b"
+      },
+      {
+        "path": "inputs/images/0007.png",
+        "bytes": 2425671,
+        "sha256": "db4df187c8ac187cb09b03e4ee995b897a14c071564de10af9447cf3d1b4793f"
+      },
+      {
+        "path": "inputs/images/0008.png",
+        "bytes": 2638287,
+        "sha256": "0ea3b29b0cf308329c4568160067c7e56f95176ecc2b842f550b1481f3948d39"
+      },
+      {
+        "path": "inputs/images/0009.png",
+        "bytes": 2751730,
+        "sha256": "34bbdc748faba0ed22ab9b2a53ae9442c2c160064c8403e1f551090ee5c6caa7"
+      },
+      {
+        "path": "inputs/images/0010.png",
+        "bytes": 2080241,
+        "sha256": "2df4b9c9f61a572a8f08bbec5cdc635a1d8904137d09a7c895527d68f5eb45f3"
+      },
+      {
+        "path": "inputs/images/0011.png",
+        "bytes": 2167921,
+        "sha256": "c0207612a8b616253b2ffa993fccb8be5c675e19d74e36a726fbfa60c8f38d9f"
+      },
+      {
+        "path": "inputs/images/0012.png",
+        "bytes": 2268779,
+        "sha256": "06447f66ff94159fc33f4055acfb628fb15d33c0263306eb8bb6d57e924fb6ef"
+      },
+      {
+        "path": "inputs/images/0013.png",
+        "bytes": 2877217,
+        "sha256": "0e085d288826aa89aa4f9cb038073dca2a0dbf5247bb354149a940b935666ae2"
+      },
+      {
+        "path": "inputs/videos/0001-silent.mp4",
+        "bytes": 6863785,
+        "sha256": "26d98280be28201b6eae021f08f1986f83bd7ff7712a0aa63071cc8d9d0ee827"
+      },
+      {
+        "path": "context/manifest.locked.json",
+        "bytes": 5031,
+        "sha256": "c182d3ec5748e2d20805fd98acb2ea339496cfbd41d022ad972898cd34d11112"
+      },
+      {
+        "path": "context/storyboard.locked.ja.srt",
+        "bytes": 1906,
+        "sha256": "47efd921dc1181c1035a5f959bf15dff9bed0b7872a378b684171cfc15dfee80"
+      },
+      {
+        "path": "context/display-captions.locked.ja.json",
+        "bytes": 5925,
+        "sha256": "f16fc3101dcdfe81fedc2f43dbc89a39eb2d0df7d1828c1b5e983f3bbf508f0e"
+      },
+      {
+        "path": "context/image-prompts.locked.txt",
+        "bytes": 15144,
+        "sha256": "0c5bc49e742821ac002a9be0bc424e5a7554554082466a55597e5739b9f32c2b"
+      }
+    ],
+    "character_and_rv_reference": "inputs/images/0001.webp",
+    "interior_references": [
+      "inputs/images/0003.png",
+      "inputs/images/0004.png",
+      "inputs/images/0011.png"
+    ],
+    "missing_input_handling": "Check archive listing and extraction first. If an input is truly missing, mark that ID missing rather than substituting or inventing it; continue independent IDs."
+  },
+  "creative_bible": {
+    "fixed_style_en_exact": "Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+    "main_character": "One solitary adult stickman, white round head, minimal black face, thin black limbs, navy parka, charcoal beanie, gloves. No mother, family, companion or pet.",
+    "rv": "Cream motorhome, one main muted teal horizontal stripe, exactly two rectangular roof solar panels; preserve side entrance, windows, wheelbase, cabin and interior layout from the supplied scene images. Do not mirror, redesign or drive the RV unless the scene explicitly requires it.",
+    "environment": "Frozen-apocalypse northern city, cold blue-gray exteriors, warm amber RV interior; mature restrained 2D survival illustration.",
+    "human_count_rule": "One protagonist. Only scene-specific incidental bystanders already visible in IDs 0009, 0010, 0012 and 0013 are allowed. They never become travel companions.",
+    "text_rule": "No text, digits, day labels, captions, logo, badge, national emblem, flag or watermark baked into stills or clips. All Japanese captions and day labels remain a later local Remotion overlay.",
+    "time_rule": "Retain the existing hook, day-19 flash-forward, then day-1 flashback. Do not make all scenes show the same snow depth or invent new story beats.",
+    "camera_rule": "Locked-off camera in newly generated clips. Environmental and action motion only. Scene 0001 is an explicitly preserved pilot exception with a reported strong push-in warning."
+  },
+  "execution": {
+    "order": [
+      "0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006",
+      "0007",
+      "0008",
+      "0009",
+      "0010",
+      "0011",
+      "0012",
+      "0013"
+    ],
+    "mode": "sequential",
+    "max_active_video_generations": 1,
+    "new_video_generation_attempts_per_missing_id": 1,
+    "creative_regeneration_attempts": 0,
+    "progress_file": "progress.json",
+    "result_file": "results.json",
+    "idempotency": "Before each ID, check progress and the actual image/video file. Reuse verified successful output; do not charge another generation for a completed ID. An acknowledgement or running task is not a completed video.",
+    "continuation": "Continue automatically to the next ID after each success or scene-specific failure. Do not stop after the first scene, ask the user to paste the next prompt, or require approval after each ID.",
+    "global_blocker": "On an account-wide quota, availability or policy error, stop further generation calls, preserve completed work and package partial results. An old account's restriction is historical and is not evidence that the current account is blocked.",
+    "if_turn_time_limit": "Write a durable checkpoint and identify exact completed, running and pending IDs. Resume from checkpoint within this same job when supported. Do not invent completed files or create an unsolicited recurring schedule."
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "name": "preflight",
+      "actions": [
+        "Read the JSON, extract the archive, verify all asset hashes and the exact 13 ordered IDs.",
+        "Create output directories plus progress.json/results.json. Verify that the provided 0001 MP4 is a valid existing 10-second source."
+      ]
+    },
+    {
+      "step": 2,
+      "name": "lock_existing_story_and_timing",
+      "actions": [
+        "Treat the 13 Japanese storyboard blocks, 26 display-caption pages and 2571-frame local timeline as read-only context.",
+        "Do not recreate OmniVoice, ASR, SRT, captions, music or the final episode. Source clips are 10 seconds, while local edit durations remain the per-scene locked frame counts."
+      ]
+    },
+    {
+      "step": 3,
+      "name": "select_still_per_id",
+      "actions": [
+        "Reuse each supplied scene still; convert 0001 WEBP to PNG without redrawing when writing images/0001.png.",
+        "Keep the exact original English prompt per storyboard ID as provenance; each prompt ends with the unchanged fixed style.",
+        "Do not generate extra stills, split blocks, merge IDs, create collages or redraw already successful supplied images."
+      ]
+    },
+    {
+      "step": 4,
+      "name": "image_to_video_per_id",
+      "actions": [
+        "Reuse provided 0001-silent.mp4. For IDs 0002 through 0013, call built-in image-to-video using that ID's supplied image and its complete motion prompt.",
+        "Request 10 seconds, landscape 16:9, silent, and locked-off framing. Preserve the scene's geometry and character counts.",
+        "Wait for the real generation result and save it before moving on. No code-generated still-image pan/zoom substitute for a failed image-to-video call."
+      ]
+    },
+    {
+      "step": 5,
+      "name": "media_qc_and_silent_delivery",
+      "actions": [
+        "Inspect actual files using available media tools: decode, duration, resolution, frame rate and audio streams. Record actual native dimensions; do not label an upscale as native 1080p.",
+        "Preserve the raw generated MP4. If it contains any audio stream, remove audio by lossless remux/video-stream copy into videos/ID.mp4. This audio removal is permitted code processing.",
+        "Do not crop, upscale, interpolate frames, retime or otherwise re-encode picture merely to satisfy metadata. Record a near-16:9 output honestly for the local editor to handle.",
+        "Visually inspect beginning, middle and end for identity, vehicle geometry, unexpected people, camera motion, text and action continuity. Mark creative warnings without spending another generation.",
+        "If duration is not 10 seconds, mark needs_review with the measured duration. Do not slow the clip, loop frames, freeze or invent missing seconds."
+      ]
+    },
+    {
+      "step": 6,
+      "name": "checkpoint_and_continue",
+      "actions": [
+        "After each ID, update progress.json and results.json with exact paths, measured properties, source tool result and any errors or warnings.",
+        "Continue until all 13 IDs have a final status or a documented account-wide blocker stops the batch."
+      ]
+    },
+    {
+      "step": 7,
+      "name": "package_and_report",
+      "actions": [
+        "Return rv-ice-ja-demo-muse-assets-v1.zip containing images/, videos/, raw_videos/, results.json, progress.json, this workflow JSON, locked context and a concise Vietnamese QA report.",
+        "Also expose results.json as a separate downloadable attachment and a contact sheet if practical.",
+        "State actual completed/failed/pending counts and unresolved creative warnings; never call a partial batch fully complete."
+      ]
+    },
+    {
+      "step": 8,
+      "name": "handoff_to_local_remotion",
+      "actions": [
+        "Leave local final assembly to the existing Remotion project. Do not claim to have changed files on the user's Windows machine.",
+        "The local editor will trim each 10-second source at playbackRate=1 to the original frame duration, fit into 1920x1080 at 30fps, and retain the existing Japanese narration/captions/ambience/SFX unchanged."
+      ]
+    }
+  ],
+  "locked_audio_context": {
+    "engine": "OmniVoice",
+    "voice": "Japanese elderly low male",
+    "tts_speed": 0.8,
+    "remotion_playback_rate": 1,
+    "already_completed_locally": true,
+    "voice_duration_seconds": 85.67,
+    "added_pauses_seconds": 9,
+    "pause_count": 16,
+    "separate_stems": [
+      "narration",
+      "ambience",
+      "sfx"
+    ],
+    "background_music": false,
+    "muse_should_generate_audio": false,
+    "audio_stems_not_attached_because_not_needed_for_asset_job": true
+  },
+  "output_contract": {
+    "zip": "rv-ice-ja-demo-muse-assets-v1.zip",
+    "images": "images/0001.png through images/0013.png",
+    "videos": "videos/0001.mp4 through videos/0013.mp4, with no audio streams",
+    "raw_videos": "Unmodified generated source clips, where available",
+    "results_json": "results.json",
+    "per_scene_result_required_fields": [
+      "id",
+      "image_status",
+      "image_file",
+      "video_status",
+      "raw_video_file",
+      "silent_video_file",
+      "duration_seconds",
+      "width",
+      "height",
+      "fps",
+      "has_audio_after_processing",
+      "generation_attempts",
+      "source_reused",
+      "warnings",
+      "error"
+    ],
+    "allowed_video_statuses": [
+      "reused_success",
+      "generated_success",
+      "needs_review",
+      "failed",
+      "blocked",
+      "pending"
+    ],
+    "report_language": "vi",
+    "scene_0001_warning_required": true,
+    "downloadable_files_required": true
+  },
+  "scenes": [
+    {
+      "id": "0001",
+      "storyboard_id": 1,
+      "story_time_context": "present-day frozen-apocalypse hook",
+      "setting": "exterior",
+      "narration_ja_context_only": "世界は、凍りついた。あなたは今、一台のキャンピングカーで、ひとり生き延びている。",
+      "locked_timing": {
+        "narration_start_ms": 0,
+        "narration_end_ms": 6310,
+        "render_from_frame": 0,
+        "render_duration_frames": 203,
+        "render_fps": 30,
+        "render_start_seconds": 0.0,
+        "render_duration_seconds": 6.766666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 1,
+          "text": "世界は、凍りついた。",
+          "startMs": 0,
+          "endMs": 1460,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 1,
+          "text": "あなたは今、一台のキャンピングカーで、\nひとり生き延びている。",
+          "startMs": 2550,
+          "endMs": 6310,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0001.webp",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0001.png",
+        "prompt_en_locked": "A cinematic wide establishing shot of a deserted northern city buried in snow at dusk, a cream motorhome with one muted teal horizontal stripe in the foreground, its side entrance on the passenger side and two rectangular solar panels on its roof. One small adult stickman with a white circular face, thin black stick limbs, navy parka, charcoal beanie and gloves stands alone at its open side door, shoulders hunched against the cold. Snow-covered buildings fade into blue-gray distance and the RV has a gentle amber interior glow. The world has already collapsed into a frozen apocalypse. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "reuse_supplied_successful_video",
+        "input_video_file": "inputs/videos/0001-silent.mp4",
+        "source_image_file": "inputs/images/0001.webp",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Preserve the parked RV, solitary protagonist, roof solar panels, open side door and blue-gray snowbound city. Only light natural snow drift is needed; warm amber cabin light remains steady. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0001.mp4",
+        "output_silent_file": "videos/0001.mp4",
+        "known_warning": "Existing scene 0001 is a successful pilot; preserve and reuse it without another generation. Its camera push-in is stronger than the preferred locked-off framing, and native 1248x704 is near but not exact 16:9. Report these warnings; do not call it a clean creative pass."
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0002",
+      "storyboard_id": 2,
+      "story_time_context": "present-day frozen-apocalypse hook",
+      "setting": "exterior",
+      "narration_ja_context_only": "背後の街は、停電したまま。前方の道路には、乗り捨てられた車が雪に埋もれている。",
+      "locked_timing": {
+        "narration_start_ms": 6760,
+        "narration_end_ms": 12720,
+        "render_from_frame": 203,
+        "render_duration_frames": 203,
+        "render_fps": 30,
+        "render_start_seconds": 6.766666667,
+        "render_duration_seconds": 6.766666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 2,
+          "text": "背後の街は、停電したまま。",
+          "startMs": 6760,
+          "endMs": 8680,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 2,
+          "text": "前方の道路には、乗り捨てられた車が\n雪に埋もれている。",
+          "startMs": 8700,
+          "endMs": 12720,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0002.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0002.png",
+        "prompt_en_locked": "View from beside the same cream motorhome with a teal horizontal stripe toward a silent powerless city and a long road filled with abandoned snow-covered cars. Every city window is dark. The same white round-headed adult stickman in a navy winter parka is small beside the RV, looking toward the blocked road. Low cinematic perspective, immense cold blue-gray sky and accumulating white snow. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0002.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The RV and all abandoned cars remain completely parked. Small snowflakes drift gently at varied depths. Keep the dark windows and road layout unchanged. The solitary protagonist makes only a tiny natural breathing motion while surveying the road. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0002.mp4",
+        "output_silent_file": "videos/0002.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0003",
+      "storyboard_id": 3,
+      "story_time_context": "present-day RV inventory",
+      "setting": "interior",
+      "narration_ja_context_only": "車内にある食料と水、それに燃料。それが、今持っているすべてだ。",
+      "locked_timing": {
+        "narration_start_ms": 13530,
+        "narration_end_ms": 18190,
+        "render_from_frame": 406,
+        "render_duration_frames": 165,
+        "render_fps": 30,
+        "render_start_seconds": 13.533333333,
+        "render_duration_seconds": 5.5,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 3,
+          "text": "車内にある食料と水、それに燃料。",
+          "startMs": 13530,
+          "endMs": 16150,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 3,
+          "text": "それが、今持っているすべてだ。",
+          "startMs": 16270,
+          "endMs": 18190,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0003.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0003.png",
+        "prompt_en_locked": "Inside the same motorhome, the white round-headed stickman in navy parka and charcoal beanie sits at the compact wooden dinette, carefully surveying plain unlabelled food tins, clear water bottles and a small jerry can safely capped on the floor. His posture is quiet and calculating. Amber light warms the wood, an icy blue window shows falling snow, rear bed visible in the background. One coherent intimate medium shot, no collage. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0003.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the adult seated at the same dinette. A very small breathing motion and a restrained glance across the existing supplies are sufficient. Tins, capped fuel can and water bottles do not move or multiply. Snow drifts slowly outside the window; the amber cabin light is steady. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0003.mp4",
+        "output_silent_file": "videos/0003.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0004",
+      "storyboard_id": 4,
+      "story_time_context": "present-day apparent security",
+      "setting": "interior",
+      "narration_ja_context_only": "エンジンはかかる。暖房も動く。この二つさえ無事なら、生き延びられる。そう考えている。",
+      "locked_timing": {
+        "narration_start_ms": 19010,
+        "narration_end_ms": 25190,
+        "render_from_frame": 571,
+        "render_duration_frames": 222,
+        "render_fps": 30,
+        "render_start_seconds": 19.033333333,
+        "render_duration_seconds": 7.4,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 4,
+          "text": "エンジンはかかる。暖房も動く。",
+          "startMs": 19010,
+          "endMs": 21230,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 4,
+          "text": "この二つさえ無事なら、生き延びられる。",
+          "startMs": 21650,
+          "endMs": 23950,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 4,
+          "text": "そう考えている。",
+          "startMs": 24130,
+          "endMs": 25190,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0004.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0004.png",
+        "prompt_en_locked": "The same round white-headed stickman wearing navy parka and charcoal beanie sits at the wheel of the cream and teal RV, one gloved hand on the steering wheel and the other held near a warm-air grille low in the cabin. His minimal face looks cautiously reassured. The dashboard is plain and unmarked, warm amber cabin contrasts with blue snow outside the windshield. One cinematic three-quarter interior view. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0004.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The adult remains in the driver's seat, holding the wheel and warming the other gloved hand near the same air grille. Show only a tiny finger or wrist adjustment and subtle breathing. The RV remains parked, the heater grille and unmarked dashboard stay geometrically stable, with gentle snowfall beyond the windshield. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0004.mp4",
+        "output_silent_file": "videos/0004.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0005",
+      "storyboard_id": 5,
+      "story_time_context": "flash-forward: day 19",
+      "setting": "exterior",
+      "narration_ja_context_only": "だが、十九日目。同じ運転席で、雪の中で空回りする後輪を見つめることになる。",
+      "locked_timing": {
+        "narration_start_ms": 26430,
+        "narration_end_ms": 32630,
+        "render_from_frame": 793,
+        "render_duration_frames": 215,
+        "render_fps": 30,
+        "render_start_seconds": 26.433333333,
+        "render_duration_seconds": 7.166666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 5,
+          "text": "だが、十九日目。",
+          "startMs": 26430,
+          "endMs": 28010,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 5,
+          "text": "同じ運転席で、雪の中で空回りする\n後輪を見つめることになる。",
+          "startMs": 28050,
+          "endMs": 32630,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0005.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0005.png",
+        "prompt_en_locked": "Flash-forward close low view of the rear wheel of the same cream motorhome with muted teal stripe stuck deep in snow beside a tall gray warehouse wall. Snow kicked up beside the black tire suggests the wheel has just spun without moving the heavy vehicle. The familiar white round-headed stickman in navy parka is seen anxiously in a small cabin window. More accumulated snow than earlier, cold overcast light, tense adult survival mood. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0005.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The visible rear tire turns slowly in place and slips against packed snow, lifting only a small local puff of powder near its contact patch. The cream and teal RV never translates, rocks dramatically or drives away. Keep the protagonist at the existing cabin window, the warehouse wall fixed, and the snowbank shape stable. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0005.mp4",
+        "output_silent_file": "videos/0005.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0006",
+      "storyboard_id": 6,
+      "story_time_context": "flash-forward: day 19",
+      "setting": "interior",
+      "narration_ja_context_only": "ガソリンはまだある。それでも、車は動かない。",
+      "locked_timing": {
+        "narration_start_ms": 33600,
+        "narration_end_ms": 37220,
+        "render_from_frame": 1008,
+        "render_duration_frames": 141,
+        "render_fps": 30,
+        "render_start_seconds": 33.6,
+        "render_duration_seconds": 4.7,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 6,
+          "text": "ガソリンはまだある。",
+          "startMs": 33600,
+          "endMs": 34740,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 6,
+          "text": "それでも、車は動かない。",
+          "startMs": 35660,
+          "endMs": 37220,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0006.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0006.png",
+        "prompt_en_locked": "Close interior view of the same stickman driver in navy parka looking with concern at a simple round analog fuel gauge on the RV dashboard. The gauge contains only a plain arc and a needle pointing partway across it, no letters, icons, ticks or digits. Through the windshield the same gray warehouse wall and deep snow remain stationary. Fuel remains but the vehicle cannot move. Warm dim amber dashboard light, icy blue outside, no collage. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0006.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the analog fuel-gauge needle fixed at the same nonempty position. The concerned driver makes one small downward eye or head glance at the gauge, then stays still. Keep the warehouse wall and deep snow outside completely stationary. No new marks, digits or dashboard symbols appear. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0006.mp4",
+        "output_silent_file": "videos/0006.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0007",
+      "storyboard_id": 7,
+      "story_time_context": "flash-forward: consequence of sheltered parking",
+      "setting": "exterior",
+      "narration_ja_context_only": "風を避けるために選んだ駐車場所。その代償を、何日もかけて払うことになる。",
+      "locked_timing": {
+        "narration_start_ms": 38290,
+        "narration_end_ms": 43750,
+        "render_from_frame": 1149,
+        "render_duration_frames": 221,
+        "render_fps": 30,
+        "render_start_seconds": 38.3,
+        "render_duration_seconds": 7.366666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 7,
+          "text": "風を避けるために選んだ駐車場所。",
+          "startMs": 38290,
+          "endMs": 40530,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 7,
+          "text": "その代償を、何日もかけて払うことになる。",
+          "startMs": 40590,
+          "endMs": 43750,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0007.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0007.png",
+        "prompt_en_locked": "Wide side view of the same cream motorhome with teal horizontal stripe parked close to the sheltered side of a huge gray warehouse. The building stops the wind but drifting snow is collecting around the rear wheels. The same small white round-headed stickman wearing navy winter parka and charcoal beanie examines the soft snow near a rear tire. The doorway remains on the passenger side, quiet misleading comfort, blue-gray winter palette. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0007.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The parked RV and warehouse wall remain fixed. Very light drifting snow moves near the rear tire and foreground, suggesting gradual accumulation without a visible time-lapse. The solitary adult makes only a subtle weight shift while examining the tire. Preserve the original depth of snow throughout this single shot. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0007.mp4",
+        "output_silent_file": "videos/0007.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0008",
+      "storyboard_id": 8,
+      "story_time_context": "flashback: day 1, fuel station still powered",
+      "setting": "exterior",
+      "narration_ja_context_only": "一日目。給油を終えたのは、ガソリンスタンドが停電する、わずか七分前だった。",
+      "locked_timing": {
+        "narration_start_ms": 45640,
+        "narration_end_ms": 50900,
+        "render_from_frame": 1370,
+        "render_duration_frames": 186,
+        "render_fps": 30,
+        "render_start_seconds": 45.666666667,
+        "render_duration_seconds": 6.2,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 8,
+          "text": "一日目。給油を終えたのは、",
+          "startMs": 45640,
+          "endMs": 47480,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 8,
+          "text": "ガソリンスタンドが停電する、\nわずか七分前だった。",
+          "startMs": 47480,
+          "endMs": 50900,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0008.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0008.png",
+        "prompt_en_locked": "Earlier on the first day at an unbranded roadside petrol station, the same adult stickman with white circular face, navy parka and charcoal beanie finishes fueling the same cream motorhome with muted teal stripe. His gloved hand holds a plain fuel nozzle near the vehicle filler. The station canopy is still lit, snow is lighter than in the flash-forward, storm clouds hang over the road. Calm before a power failure. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0008.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The same adult makes one small controlled adjustment of the gloved hand holding the existing fuel nozzle at the filler. Keep the nozzle connected and the hose stable; do not show a second nozzle or spilling fuel. Canopy lights remain on throughout this shot. Light snow drifts, and the RV stays parked. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0008.mp4",
+        "output_silent_file": "videos/0008.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0009",
+      "storyboard_id": 9,
+      "story_time_context": "day 1, fuel station power has failed",
+      "setting": "exterior",
+      "narration_ja_context_only": "道路沿いの価格表示が消える。隣の客は給油ノズルを二度握り、数字が動かないのを見て、店へ向かう。",
+      "locked_timing": {
+        "narration_start_ms": 51850,
+        "narration_end_ms": 60300,
+        "render_from_frame": 1556,
+        "render_duration_frames": 277,
+        "render_fps": 30,
+        "render_start_seconds": 51.866666667,
+        "render_duration_seconds": 9.233333333,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 9,
+          "text": "道路沿いの価格表示が消える。",
+          "startMs": 51850,
+          "endMs": 53810,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 9,
+          "text": "隣の客は給油ノズルを二度握り、",
+          "startMs": 54800,
+          "endMs": 57380,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 9,
+          "text": "数字が動かないのを見て、店へ向かう。",
+          "startMs": 57420,
+          "endMs": 60300,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0009.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0009.png",
+        "prompt_en_locked": "At the same unbranded petrol station after a power failure, an incidental gray-coated stickman customer squeezes a plain fuel nozzle and stares at a completely dark unmarked rectangular pump display. The main navy-parka stickman is visible near his cream and teal motorhome behind him. Canopy lamps and the roadside price sign are now dark and blank. Snow blows across an empty forecourt, subdued realistic uncertainty. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0009.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The incidental gray-coated customer makes one small squeeze of the existing nozzle, then looks toward the dark blank pump display. Keep the main navy-parka adult at the RV in the background. Pump display, roadside sign and canopy lamps stay completely dark. Light snow crosses the forecourt. Neither person walks out of frame; no additional people appear. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0009.mp4",
+        "output_silent_file": "videos/0009.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "Only the existing gray-coated bystander or bystanders in this supplied scene, never a companion inside the RV."
+    },
+    {
+      "id": "0010",
+      "storyboard_id": 10,
+      "story_time_context": "day 1, powerless station viewed in side mirror",
+      "setting": "interior",
+      "narration_ja_context_only": "ミラーの中では、誰かが動かなくなった自動ドアを、両手で引いている。",
+      "locked_timing": {
+        "narration_start_ms": 61070,
+        "narration_end_ms": 65630,
+        "render_from_frame": 1833,
+        "render_duration_frames": 160,
+        "render_fps": 30,
+        "render_start_seconds": 61.1,
+        "render_duration_seconds": 5.333333333,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 10,
+          "text": "ミラーの中では、誰かが動かなくなった\n自動ドアを、両手で引いている。",
+          "startMs": 61070,
+          "endMs": 65630,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0010.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0010.png",
+        "prompt_en_locked": "From inside the driver's cabin of the same cream and teal motorhome, the main white round-headed stickman in navy parka looks toward the side mirror. In that mirror an incidental gray-coated stickman is clearly reflected pulling at the glass entrance doors of the powerless petrol station with both hands. The doors stay closed. The reflection is physically coherent and not a separate inset panel. Quiet amber cabin, blue snow outside, close over-shoulder view. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0010.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The navy-parka protagonist stays seated inside the RV. Within the same physically coherent side-mirror reflection, the incidental gray-coated person gives the glass entrance door one short restrained tug with both hands. The door stays stuck shut. Keep the reflected person entirely in the mirror, with no duplicated real-world figure, no extra inset, and no drifting mirror geometry. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0010.mp4",
+        "output_silent_file": "videos/0010.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "Only the existing gray-coated bystander or bystanders in this supplied scene, never a companion inside the RV."
+    },
+    {
+      "id": "0011",
+      "storyboard_id": 11,
+      "story_time_context": "day 1, stocked RV",
+      "setting": "interior",
+      "narration_ja_context_only": "タンクは満タンだ。まだ始まってもいない旅のために、食料も積んである。",
+      "locked_timing": {
+        "narration_start_ms": 66430,
+        "narration_end_ms": 71650,
+        "render_from_frame": 1993,
+        "render_duration_frames": 179,
+        "render_fps": 30,
+        "render_start_seconds": 66.433333333,
+        "render_duration_seconds": 5.966666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 11,
+          "text": "タンクは満タンだ。",
+          "startMs": 66430,
+          "endMs": 67610,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 11,
+          "text": "まだ始まってもいない旅のために、\n食料も積んである。",
+          "startMs": 68310,
+          "endMs": 71650,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0011.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0011.png",
+        "prompt_en_locked": "Inside the same RV, the familiar white round-headed stickman in navy parka and charcoal beanie opens a low storage compartment to reveal neatly stowed plain food tins, unmarked packets and water bottles for his planned trip. He looks briefly relieved, his face minimal and readable. Compact wooden dinette and rear bed remain in their established positions. Warm amber interior, icy blue window. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0011.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The existing low storage compartment is open and stays open. The adult makes a small glance across the neatly stored food and water, then holds a quietly relieved posture. Do not animate the compartment through a large open-close cycle, move the dinette or bed, or add, remove or relabel supplies. Amber cabin light remains steady. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0011.mp4",
+        "output_silent_file": "videos/0011.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "No additional people."
+    },
+    {
+      "id": "0012",
+      "storyboard_id": 12,
+      "story_time_context": "day 1, momentary sense of good fortune",
+      "setting": "interior",
+      "narration_ja_context_only": "立ち往生した人々を見ながら、自分は運がよかったと思う。",
+      "locked_timing": {
+        "narration_start_ms": 72380,
+        "narration_end_ms": 76420,
+        "render_from_frame": 2172,
+        "render_duration_frames": 149,
+        "render_fps": 30,
+        "render_start_seconds": 72.4,
+        "render_duration_seconds": 4.966666667,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 12,
+          "text": "立ち往生した人々を見ながら、\n自分は運がよかったと思う。",
+          "startMs": 72380,
+          "endMs": 76420,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0012.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0012.png",
+        "prompt_en_locked": "Medium close view of the same white round-headed navy-parka stickman seated safely behind the RV steering wheel, a fleeting relieved expression as he looks through the side window at a few distant stranded gray-coated stick figures standing beside silent cars in the snow. The extra people are small anonymous background figures, no companions inside the RV. Soft amber cabin versus cold blue exterior, restrained adult survival mood. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0012.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The seated protagonist makes a tiny head turn toward the side window, then holds a restrained relieved posture. Existing distant gray-coated bystanders remain beside their stationary cars, with only minimal natural motion. No one enters the RV or becomes a companion. Preserve the original vehicle and person counts. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0012.mp4",
+        "output_silent_file": "videos/0012.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "Only the existing gray-coated bystander or bystanders in this supplied scene, never a companion inside the RV."
+    },
+    {
+      "id": "0013",
+      "storyboard_id": 13,
+      "story_time_context": "day 1, blocked bridge approach",
+      "setting": "exterior",
+      "narration_ja_context_only": "街へ戻る道は、橋の手前から渋滞している。坂の上では、一台のトラックが二車線をふさいでいる。",
+      "locked_timing": {
+        "narration_start_ms": 77360,
+        "narration_end_ms": 84520,
+        "render_from_frame": 2321,
+        "render_duration_frames": 250,
+        "render_fps": 30,
+        "render_start_seconds": 77.366666667,
+        "render_duration_seconds": 8.333333333,
+        "source_clip_in_seconds": 0,
+        "source_playback_rate": 1,
+        "local_edit_rule": "Trim the 10-second source to render_duration_frames / render_fps. Preserve locked timeline and Japanese captions. Do not extend narration to fit the source clip."
+      },
+      "display_captions_context_only": [
+        {
+          "sceneIndex": 13,
+          "text": "街へ戻る道は、\n橋の手前から渋滞している。",
+          "startMs": 77360,
+          "endMs": 80580,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "sceneIndex": 13,
+          "text": "坂の上では、一台のトラックが\n二車線をふさいでいる。",
+          "startMs": 81040,
+          "endMs": 84520,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "image": {
+        "input_file": "inputs/images/0013.png",
+        "policy": "reuse_supplied_successful_still_without_redrawing",
+        "output_file": "images/0013.png",
+        "prompt_en_locked": "Wide elevated cinematic view of a snow-covered road climbing toward a bridge. A large unbranded delivery truck has stopped sideways across the two road lanes at the top of the incline, blocking a long motionless line of cars. The same cream motorhome with muted teal stripe is visible near the rear of the queue. Few tiny anonymous stick figures stand beside their vehicles. No heroic action, only a trapped road network beneath heavy blue-gray winter clouds. No visible writing, numerals, logos, emblems, flags or watermark. No visible text, numbers, logos, badges, national emblems, flags, or watermarks, Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "fallback_if_missing": "Mark image_missing and continue with the next ID. Do not silently redraw a supplied successful image or use another scene's image."
+      },
+      "video": {
+        "action": "generate_image_to_video_once",
+        "input_video_file": null,
+        "source_image_file": "inputs/images/0013.png",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the delivery truck fixed sideways across both lanes, the queued RV and all other cars stationary, and bridge and road geometry unchanged. A few existing distant bystanders may make tiny natural posture movements, with gentle snow drifting through the frame. No vehicle drives, slides, collides or clears the blocked route. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+        "output_raw_file": "raw_videos/0013.mp4",
+        "output_silent_file": "videos/0013.mp4",
+        "known_warning": null
+      },
+      "allowed_incidental_people": "Only the existing gray-coated bystander or bystanders in this supplied scene, never a companion inside the RV."
+    }
+  ]
+}
