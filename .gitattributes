@@ -2,3 +2,9 @@
 *.md text eol=lf
 *.txt text eol=lf
 *.zip binary
+*.png binary
+*.jpg binary
+*.py text eol=lf
+*.tsx text eol=lf
+*.srt text eol=lf
+*.csv text eol=lf

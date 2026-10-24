@@ -1,0 +1,17 @@
+{
+  "voice_chunks_created_locally": 141,
+  "voice_engine": "OmniVoice",
+  "generation_speed": 0.8,
+  "playback_rate": 1,
+  "timing_source": "Measured WAV durations and per-word Japanese ASR alignment",
+  "manual_listening_performed": false,
+  "orthographic_review": [
+    {
+      "id": "full-119",
+      "script": "二十七日目。明るくなってから始める。昨日の道も、ところどころ掘り直さなければならない。",
+      "tts_day_reading": "にじゅうななにちめ",
+      "asr": "二重な七日目。明るくなってから始める。昨日の道も所々掘り直さなければならない。",
+      "note": "ASR uses alternate kanji for the spoken day count and 所々 for ところどころ. Raw ASR is retained in voice-timing.json; final captions must use the approved script. This is an orthographic review note, not a claim of manual listening."
+    }
+  ]
+}

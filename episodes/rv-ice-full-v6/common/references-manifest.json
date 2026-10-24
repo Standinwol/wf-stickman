@@ -1,0 +1,32 @@
+[
+  {
+    "path": "references/hero-rv-exterior.png",
+    "bytes": 2504250,
+    "sha256": "bee7f56e63030f491cbe57eab67f2a5c3a06037156afe3b9ad2ecdf864846fc2"
+  },
+  {
+    "path": "references/rv-dinette.png",
+    "bytes": 2226909,
+    "sha256": "889f4f69f70e82ef00a271f2045c2d91a06abb3399cbdfe62b77e08b0a6caebb"
+  },
+  {
+    "path": "references/rv-cockpit.png",
+    "bytes": 2325831,
+    "sha256": "3fd45e6193cf252bdff1cf6a151671b6dbba9bb01e17180c95ca5e9674369e4b"
+  },
+  {
+    "path": "references/warehouse-geometry.png",
+    "bytes": 2425671,
+    "sha256": "db4df187c8ac187cb09b03e4ee995b897a14c071564de10af9447cf3d1b4793f"
+  },
+  {
+    "path": "references/rv-storage.png",
+    "bytes": 2167921,
+    "sha256": "c0207612a8b616253b2ffa993fccb8be5c675e19d74e36a726fbfa60c8f38d9f"
+  },
+  {
+    "path": "references/blocked-bridge.png",
+    "bytes": 2877217,
+    "sha256": "0e085d288826aa89aa4f9cb038073dca2a0dbf5247bb354149a940b935666ae2"
+  }
+]

@@ -1,0 +1,483 @@
+{
+  "schema_version": "2.0",
+  "job_id": "rv-ice-full-v6-B019",
+  "batch_id": "B019",
+  "scene_count": 6,
+  "scene_ids": [
+    "full-109",
+    "full-110",
+    "full-111",
+    "full-112",
+    "full-113",
+    "full-114"
+  ],
+  "purpose_vi": "Tạo ảnh và video thật cho đúng các cảnh trong batch này. Không viết lại script. Không tạo voice, phụ đề, nhạc hoặc bản dựng tập cuối.",
+  "common_inputs": [
+    "common/creative-bible.json",
+    "common/references.zip",
+    "common/references-manifest.json"
+  ],
+  "execution_order": "For each scene: check checkpoint and actual files -> attach references -> generate one still -> inspect still -> save/hash/checkpoint -> generate one 10-second image-to-video from that still -> save raw -> strip audio with stream copy -> inspect -> save/hash/checkpoint. Only then proceed to next scene.",
+  "service_policy": {
+    "provider": "Muse built-in image and image-to-video tools; signed-in Chrome px75 account",
+    "external_paid_api": false,
+    "purchase_credits": false,
+    "upgrade_plan": false,
+    "account_switching": false,
+    "use_existing_quota_only": true,
+    "max_active_generations": 1,
+    "max_new_image_calls_per_scene": 1,
+    "max_new_video_calls_per_scene": 1,
+    "creative_regeneration": false,
+    "transient_retry": "Resume or poll an existing generation job by job_id. Never resubmit a generation whose result is uncertain. Retry download/network retrieval at most twice, without triggering another generation.",
+    "global_blocker": "Stop submitting new media calls, persist and publish partial output, mark remaining work blocked, and report the exact service error. No unsolicited recurring schedule."
+  },
+  "checkpoint": {
+    "progress": "outputs/B019/progress.json",
+    "journal": "outputs/B019/events.jsonl",
+    "results": "outputs/B019/results.json",
+    "tool": "tools/checkpoint.py",
+    "initialize_command": "python tools/checkpoint.py init --batch batches/B019.json",
+    "next_command": "python tools/checkpoint.py next --batch batches/B019.json",
+    "durability": "Write after each image, generation job submission, downloaded video, QA result and failure. Retain image if video fails; never restart the batch from scene one."
+  },
+  "delivery": {
+    "output_prefix": "deliveries/B019",
+    "max_archive_bytes": 20000000,
+    "separate_batches": true,
+    "include": [
+      "images",
+      "silent videos",
+      "raw video if space permits, otherwise separate archive",
+      "results.json",
+      "progress.json",
+      "contact sheets",
+      "checksums.json"
+    ],
+    "publish_after_each_batch": true
+  },
+  "scenes": [
+    {
+      "id": "full-109",
+      "order": 157,
+      "kind": "story",
+      "story_day": 23,
+      "title_ja": "明かりを消し、しばらく動かずにいる",
+      "narration_ja": "明かりを消し、しばらく動かずにいる。外へ出て確かめるのは、空が明るくなってからにした。",
+      "from_frame": 30351,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-109.wav",
+      "audio_sha256": "e6c161e01dfb0881061be994a1eb0358702403057679f447fb3f46709a82f188",
+      "voice_duration_seconds": 6.49,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 6.16,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Hero sits motionless in dark cabin holding switched-off flashlight, faint blue moonlight, heater glow minimal. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The lone adult sits still in the dim cabin, listening; keep the door closed and no outside figure appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/rv-dinette.png",
+        "references/rv-cockpit.png",
+        "references/rv-storage.png"
+      ],
+      "setting": "interior",
+      "continuity": "The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "29ac669323870399a480af133fe7579a29a795182bc96f175e293f8eebda3fc3",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Hero sits motionless in dark cabin holding switched-off flashlight, faint blue moonlight, heater glow minimal. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-109.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The lone adult sits still in the dim cabin, listening; keep the door closed and no outside figure appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-109.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-109.mp4",
+        "silent_output_file": "outputs/B019/videos/full-109.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 214,
+      "duration_seconds": 7.133333333333334,
+      "batch_id": "B019"
+    },
+    {
+      "id": "full-110",
+      "order": 158,
+      "kind": "story",
+      "story_day": 23,
+      "title_ja": "朝、原因が分かった",
+      "narration_ja": "朝、原因が分かった。目印のオレンジのロープがほどけ、風にあおられて車体に当たっていた。",
+      "from_frame": 30565,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-110.wav",
+      "audio_sha256": "93caaa64248d4466990ba839effcdc9b757a7d2acdfa8af57711d948f86b9daa",
+      "voice_duration_seconds": 6.65,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 6.3,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Loose short orange rope end whipping against RV side next to door in snowy dawn, hero inspecting it. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Morning wind moves the loosened orange rope against the stationary RV; reveal no new threat. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/warehouse-geometry.png"
+      ],
+      "setting": "exterior",
+      "continuity": "The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "e15d07d80f5d8fca7dabd6090c5fce7d1e8ee09c801d4982a4478cd5092ec7d7",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Loose short orange rope end whipping against RV side next to door in snowy dawn, hero inspecting it. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-110.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Morning wind moves the loosened orange rope against the stationary RV; reveal no new threat. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-110.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-110.mp4",
+        "silent_output_file": "outputs/B019/videos/full-110.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 219,
+      "duration_seconds": 7.3,
+      "batch_id": "B019"
+    },
+    {
+      "id": "full-111",
+      "order": 159,
+      "kind": "story",
+      "story_day": 23,
+      "title_ja": "昨日の自分がつけた目印だった",
+      "narration_ja": "昨日の自分がつけた目印だった。結び直し、長い端をまとめる。怖かった音にも、確かめられる原因があった。",
+      "from_frame": 30784,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-111.wav",
+      "audio_sha256": "673be51d2622111c0e8c8aca9afb531c8d17e3fc2726e35d7566063bc6e7c4a8",
+      "voice_duration_seconds": 8.11,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 7.82,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Hero secures orange marker close to RV doorway, careful gloved knot, relieved and rueful expression, no other characters. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult gathers the loose rope end and makes a small retightening motion; no elaborate knot transformation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/warehouse-geometry.png"
+      ],
+      "setting": "exterior",
+      "continuity": "The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "06b9a550f34fae7db8110e69e511714e14fa09e80fa77e0219772d6e77028a26",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Hero secures orange marker close to RV doorway, careful gloved knot, relieved and rueful expression, no other characters. The RV remains at the warehouse in accumulated leeward snow. Orange rope marker is present. The windshield cover is fitted until departure preparation. After day nineteen tools are gradually moved into accessible places; do not make the buried route vanish. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-111.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult gathers the loose rope end and makes a small retightening motion; no elaborate knot transformation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-111.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-111.mp4",
+        "silent_output_file": "outputs/B019/videos/full-111.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 263,
+      "duration_seconds": 8.766666666666667,
+      "batch_id": "B019"
+    },
+    {
+      "id": "full-112",
+      "order": 161,
+      "kind": "story",
+      "story_day": 25,
+      "title_ja": "二十五日目",
+      "narration_ja": "二十五日目。向かいの壁に、久しぶりの光が差した。倉庫の角から、黒い道が一本見える。",
+      "from_frame": 31086,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-112.wav",
+      "audio_sha256": "5e390e24065509f2ffd705eab72f25ce2ae724745c26b58f3967c58ead98a7fd",
+      "voice_duration_seconds": 6.97,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 6.76,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Hero stands at warehouse corner seeing a narrow wind-swept asphalt strip in brief sunlight, cream RV behind. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Weak sunlight touches the exposed road beyond the warehouse corner; the parked RV remains in the old location. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/warehouse-geometry.png"
+      ],
+      "setting": "exterior",
+      "continuity": "The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "cdc45d653c45abe4221a67b3132534fd8548208e8d3684676ce09e7083d50a09",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Hero stands at warehouse corner seeing a narrow wind-swept asphalt strip in brief sunlight, cream RV behind. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-112.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Weak sunlight touches the exposed road beyond the warehouse corner; the parked RV remains in the old location. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-112.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-112.mp4",
+        "silent_output_file": "outputs/B019/videos/full-112.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 228,
+      "duration_seconds": 7.6,
+      "batch_id": "B019"
+    },
+    {
+      "id": "full-113",
+      "order": 162,
+      "kind": "story",
+      "story_day": 25,
+      "title_ja": "その先に、低い事務所の駐車場がある",
+      "narration_ja": "その先に、低い事務所の駐車場がある。一キロもない。来た時は、風が強いから通り過ぎた場所だ。",
+      "from_frame": 31314,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-113.wav",
+      "audio_sha256": "5f7149f7a79f27aa13c7bd0baf10645ea57244c3fa6aecbb940e56dd0e91ab5c",
+      "voice_duration_seconds": 7.47,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 7.18,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Distant low office building and open snow-dusted parking lot beyond wind-swept road, hero foreground, no signage. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult studies the nearby office parking area from the existing viewpoint; no jump-cut travel. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/warehouse-geometry.png"
+      ],
+      "setting": "exterior",
+      "continuity": "The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "88768ab312746aa507ccb5f012837ddffeb697691b0071e27484b14a43a06aa9",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Distant low office building and open snow-dusted parking lot beyond wind-swept road, hero foreground, no signage. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-113.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult studies the nearby office parking area from the existing viewpoint; no jump-cut travel. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-113.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-113.mp4",
+        "silent_output_file": "outputs/B019/videos/full-113.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 243,
+      "duration_seconds": 8.1,
+      "batch_id": "B019"
+    },
+    {
+      "id": "full-114",
+      "order": 163,
+      "kind": "story",
+      "story_day": 25,
+      "title_ja": "風は当たる",
+      "narration_ja": "風は当たる。だが、高い壁が空を隠していない。今度は静かさだけで、場所を選ばない。",
+      "from_frame": 31557,
+      "fps": 30,
+      "media_strategy": "muse_generate_image_then_video",
+      "timing_status": "measured_omnivoice_and_word_alignment",
+      "narration_audio_file": "audio/full-v6/full-114.wav",
+      "audio_sha256": "0386d8e34bb0bfdb01a96c3ec03a46f72d697d312f07be999929ec1c500af36b",
+      "voice_duration_seconds": 6.32,
+      "voice_offset_frames": 5,
+      "voiced_start_seconds": 0.0,
+      "voiced_end_seconds": 6.06,
+      "pause_after_seconds": 0.45,
+      "image_prompt_en": "Wide open office carpark exposed to wind and pale sun, dark clear patches of ground, no high walls shading the sky. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+      "video_prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Wind moves fine snow through the open office parking area; keep its low buildings and open sky stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+      "source_clip_seconds": 10,
+      "render_playback_rate": 1,
+      "image_reference_files": [
+        "references/hero-rv-exterior.png",
+        "references/warehouse-geometry.png"
+      ],
+      "setting": "exterior",
+      "continuity": "The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement.",
+      "allowed_people": "No additional people; the recurring protagonist is the only adult, unless this is an objects-only view.",
+      "idempotency_key": "b60142d635a34d705f51805844d87f2fb258bc573f24f680a5bec87070c10ec6",
+      "image": {
+        "action": "generate_once_with_actual_references",
+        "requested_width": 2048,
+        "requested_height": 1152,
+        "format": "png",
+        "prompt_en": "Wide open office carpark exposed to wind and pale sun, dark clear patches of ground, no high walls shading the sky. The old warehouse is still the current location. A new office parking area is only a candidate until day twenty-eight. The RV moves only when the specific scene explicitly calls for a small recovery movement. No additional people; the recurring protagonist is the only adult, unless this is an objects-only view. Use the attached references for identity and geometry. Show one specific visible moment from a single camera position, with a clean readable focal point. No collage, split screen, diagrams, legible writing, letters, digits, logos, flags, badges, emblems or watermark. Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals.",
+        "output_file": "outputs/B019/images/full-114.png"
+      },
+      "video": {
+        "action": "image_to_video_once",
+        "duration_seconds": 10,
+        "requested_aspect_ratio": "16:9",
+        "audio": "none",
+        "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Wind moves fine snow through the open office parking area; keep its low buildings and open sky stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+        "source_image_file": "outputs/B019/images/full-114.png",
+        "raw_output_file": "outputs/B019/raw_videos/full-114.mp4",
+        "silent_output_file": "outputs/B019/videos/full-114.mp4"
+      },
+      "qa": {
+        "check_image_before_video": true,
+        "check_video_frames_at_seconds": [
+          0,
+          5,
+          9.5
+        ],
+        "must_preserve": [
+          "character_identity",
+          "RV_identity_and_geometry",
+          "person_count",
+          "day_specific_snow",
+          "one_coherent_moment",
+          "no_baked_text",
+          "no_snow_inside_RV"
+        ],
+        "technical": "ffprobe actual files; validate duration, dimensions, frames, and silent derivative; record native near-16:9 warnings honestly"
+      },
+      "duration_frames": 209,
+      "duration_seconds": 6.966666666666667,
+      "batch_id": "B019"
+    }
+  ]
+}

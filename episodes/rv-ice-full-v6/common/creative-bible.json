@@ -1,0 +1,19 @@
+{
+  "character": "One solitary adult stickman with a simple white round head, minimal black facial features, thin black limbs, compact navy winter parka, charcoal beanie and gloves. No mother, family, partner, companion or pet. Incidental gray-clothed people only where the scene explicitly allows them.",
+  "rv": "The approved cream motorhome with one muted teal horizontal stripe and exactly two rectangular roof solar panels. Keep entrance side, doors, wheelbase, windows, dinette, rear bed, kitchenette and washroom consistent with actual attached references. Do not mirror the vehicle.",
+  "world": "Hand-drawn 2D frozen northern city; blue-gray exteriors and restrained amber interior light. Preserve a single scene rather than a collage or montage.",
+  "text": "No baked text, letters, digits, logos, flags, badges, emblems or watermarks in generated story assets. Japanese typography, gauges and days are deterministic Remotion layers. Never apply story text restrictions by removing typography from the supplied ready-made graphics.",
+  "motion": "One continuous 10-second shot. Camera stays locked: no pan, push-in, zoom, orbit, reframing, cuts or transitions. Environmental and small action motion only unless the specific scene explicitly says the RV is moving.",
+  "snow": "Snow remains outdoors. Do not put snowflakes over indoor objects or through a closed RV. Use the requested day-specific depth, not the depth in a geometry-only reference.",
+  "audio": "Request silent clips. Keep native generated MP4 unchanged under raw_videos; remove audio with stream copy under videos. No generated speech, music or sound effects.",
+  "reference_roles": {
+    "hero-rv-exterior.png": "protagonist, vehicle identity and overall style",
+    "rv-dinette.png": "warm interior layout",
+    "rv-cockpit.png": "driver, dashboard and cockpit geometry",
+    "warehouse-geometry.png": "warehouse/RV spatial relationship only; override snow depth by story day",
+    "rv-storage.png": "storage, dinette and rear-bed continuity",
+    "blocked-bridge.png": "day-one geography and established incidental traffic only"
+  },
+  "reference_application": "Attach actual image references to every image-generation call, then pass the selected actual still to image-to-video. Merely mentioning filenames is insufficient.",
+  "fixed_style_en_exact": "Hand-drawn 2D stickman survival illustration, simple white round head with minimal black facial features, thin black stick arms and legs, compact navy blue winter parka, charcoal beanie and gloves, clean bold charcoal outlines, softly textured flat cel colors, cinematic wide composition, atmospheric blue-gray snowbound backgrounds, warm amber cabin light, restrained adult survival tone, consistent cream motorhome with a muted teal horizontal stripe whenever the vehicle is visible, balanced readable silhouettes, no photorealism, no 3D rendering, no text or numerals."
+}

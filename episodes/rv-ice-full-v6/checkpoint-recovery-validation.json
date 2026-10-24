@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "uses_only_local_fixture_assets": true,
+  "generation_calls": 0,
+  "checks": [
+    "Generation intent survives interruption and accepts the actual job ID without a duplicate call",
+    "Restart after a saved image resumes at video, preserving the image",
+    "Completed image/video skips to the next exact scene ID after restart",
+    "Changed asset hash prevents unsafe reuse",
+    "Partial batch produces independent ZIP delivery and master checkpoint without losing successes"
+  ]
+}

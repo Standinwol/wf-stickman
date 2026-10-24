@@ -1,0 +1,543 @@
+{
+  "schema_version": "2.0",
+  "production_id": "rv-ice-full-v6",
+  "source_script_sha256": "4c7e6db9f2a0d6a79b769c82bf3ffda16493923e84ce58502c2192222112e05a",
+  "fixed_style_sha256": "53b3d42fe0be5c4c3bac2481ac02e4981f91f5f597fcf68efedef6fb31a760b5",
+  "language": "ja-JP",
+  "instruction_language": "vi",
+  "browser_profile": "Chrome px75",
+  "scope": "full_episode_asset_generation",
+  "duration_frames": 38545,
+  "fps": 30,
+  "measured_planned_duration_seconds": 1284.8333333333333,
+  "sequence_items": 197,
+  "story_scenes": 154,
+  "new_image_video_scene_count": 141,
+  "reused_demo_assets": 12,
+  "ready_information_frames": 23,
+  "ready_day_cards": 20,
+  "total_ready_graphics": 43,
+  "batch_size": 6,
+  "batch_count": 24,
+  "new_image_generation_limit": 141,
+  "new_video_generation_limit": 141,
+  "background_music": false,
+  "voice": {
+    "engine": "OmniVoice",
+    "speed": 0.8,
+    "playback_rate": 1,
+    "owner": "local project; already generated and aligned, Muse must not regenerate"
+  },
+  "final_render_owner": "Local Remotion after verified assets are returned",
+  "service_policy": {
+    "provider": "Muse built-in image and image-to-video tools; signed-in Chrome px75 account",
+    "external_paid_api": false,
+    "purchase_credits": false,
+    "upgrade_plan": false,
+    "account_switching": false,
+    "use_existing_quota_only": true,
+    "max_active_generations": 1,
+    "max_new_image_calls_per_scene": 1,
+    "max_new_video_calls_per_scene": 1,
+    "creative_regeneration": false,
+    "transient_retry": "Resume or poll an existing generation job by job_id. Never resubmit a generation whose result is uncertain. Retry download/network retrieval at most twice, without triggering another generation.",
+    "global_blocker": "Stop submitting new media calls, persist and publish partial output, mark remaining work blocked, and report the exact service error. No unsolicited recurring schedule."
+  },
+  "bootstrap": {
+    "root": "workspace/rv-ice-full-v6",
+    "download_and_verify": [
+      "common/references.zip",
+      "common/references-manifest.json",
+      "common/creative-bible.json",
+      "common/graphics.zip",
+      "common/graphics-manifest.json",
+      "common/reuse-existing.json",
+      "tools/checkpoint.py",
+      "checksums.json"
+    ],
+    "archives": "Independent ZIP archives. Verify SHA-256, then extract both at the same root. They are not split ZIP volumes."
+  },
+  "execution": {
+    "mode": "sequential_batches_and_sequential_scenes",
+    "start_with": "B001",
+    "auto_continue_next_batch": true,
+    "load_only_active_batch_prompt": true,
+    "checkpoint_after_every_asset": true,
+    "publish_before_next_batch": true,
+    "no_confirmation_between_scenes_or_batches": true,
+    "do_not_generate_ready_graphics": true,
+    "do_not_regenerate_demo": true,
+    "if_context_or_turn_limit": "Finish/checkpoint the current asset, publish a partial batch and exact next ID/stage. Resume from files. A successful generation job_id must be polled/downloaded, never submitted again.",
+    "if_one_scene_fails": "Keep earlier successes. Mark only that stage failed/needs_review and continue independent scene IDs. Report a small repair list, never reset the full episode."
+  },
+  "batches": [
+    {
+      "batch_id": "B001",
+      "file": "batches/B001.json",
+      "scene_ids": [
+        "full-001",
+        "full-002",
+        "full-003",
+        "full-004",
+        "full-005",
+        "full-006"
+      ],
+      "day_start": 1,
+      "day_end": 1,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B002",
+      "file": "batches/B002.json",
+      "scene_ids": [
+        "full-007",
+        "full-008",
+        "full-009",
+        "full-010",
+        "full-011",
+        "full-012"
+      ],
+      "day_start": 1,
+      "day_end": 2,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B003",
+      "file": "batches/B003.json",
+      "scene_ids": [
+        "full-013",
+        "full-014",
+        "full-015",
+        "full-016",
+        "full-017",
+        "full-018"
+      ],
+      "day_start": 2,
+      "day_end": 2,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B004",
+      "file": "batches/B004.json",
+      "scene_ids": [
+        "full-019",
+        "full-020",
+        "full-021",
+        "full-022",
+        "full-023",
+        "full-024"
+      ],
+      "day_start": 4,
+      "day_end": 4,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B005",
+      "file": "batches/B005.json",
+      "scene_ids": [
+        "full-025",
+        "full-026",
+        "full-027",
+        "full-028",
+        "full-029",
+        "full-030"
+      ],
+      "day_start": 5,
+      "day_end": 5,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B006",
+      "file": "batches/B006.json",
+      "scene_ids": [
+        "full-031",
+        "full-032",
+        "full-033",
+        "full-034",
+        "full-035",
+        "full-036"
+      ],
+      "day_start": 5,
+      "day_end": 6,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B007",
+      "file": "batches/B007.json",
+      "scene_ids": [
+        "full-037",
+        "full-038",
+        "full-039",
+        "full-040",
+        "full-041",
+        "full-042"
+      ],
+      "day_start": 6,
+      "day_end": 8,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B008",
+      "file": "batches/B008.json",
+      "scene_ids": [
+        "full-043",
+        "full-044",
+        "full-045",
+        "full-046",
+        "full-047",
+        "full-048"
+      ],
+      "day_start": 8,
+      "day_end": 9,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B009",
+      "file": "batches/B009.json",
+      "scene_ids": [
+        "full-049",
+        "full-050",
+        "full-051",
+        "full-052",
+        "full-053",
+        "full-054"
+      ],
+      "day_start": 9,
+      "day_end": 11,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B010",
+      "file": "batches/B010.json",
+      "scene_ids": [
+        "full-055",
+        "full-056",
+        "full-057",
+        "full-058",
+        "full-059",
+        "full-060"
+      ],
+      "day_start": 11,
+      "day_end": 13,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B011",
+      "file": "batches/B011.json",
+      "scene_ids": [
+        "full-061",
+        "full-062",
+        "full-063",
+        "full-064",
+        "full-065",
+        "full-066"
+      ],
+      "day_start": 13,
+      "day_end": 15,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B012",
+      "file": "batches/B012.json",
+      "scene_ids": [
+        "full-067",
+        "full-068",
+        "full-069",
+        "full-070",
+        "full-071",
+        "full-072"
+      ],
+      "day_start": 15,
+      "day_end": 15,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B013",
+      "file": "batches/B013.json",
+      "scene_ids": [
+        "full-073",
+        "full-074",
+        "full-075",
+        "full-076",
+        "full-077",
+        "full-078"
+      ],
+      "day_start": 15,
+      "day_end": 17,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B014",
+      "file": "batches/B014.json",
+      "scene_ids": [
+        "full-079",
+        "full-080",
+        "full-081",
+        "full-082",
+        "full-083",
+        "full-084"
+      ],
+      "day_start": 17,
+      "day_end": 18,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B015",
+      "file": "batches/B015.json",
+      "scene_ids": [
+        "full-085",
+        "full-086",
+        "full-087",
+        "full-088",
+        "full-089",
+        "full-090"
+      ],
+      "day_start": 18,
+      "day_end": 19,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B016",
+      "file": "batches/B016.json",
+      "scene_ids": [
+        "full-091",
+        "full-092",
+        "full-093",
+        "full-094",
+        "full-095",
+        "full-096"
+      ],
+      "day_start": 19,
+      "day_end": 19,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B017",
+      "file": "batches/B017.json",
+      "scene_ids": [
+        "full-097",
+        "full-098",
+        "full-099",
+        "full-100",
+        "full-101",
+        "full-102"
+      ],
+      "day_start": 21,
+      "day_end": 21,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B018",
+      "file": "batches/B018.json",
+      "scene_ids": [
+        "full-103",
+        "full-104",
+        "full-105",
+        "full-106",
+        "full-107",
+        "full-108"
+      ],
+      "day_start": 21,
+      "day_end": 23,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B019",
+      "file": "batches/B019.json",
+      "scene_ids": [
+        "full-109",
+        "full-110",
+        "full-111",
+        "full-112",
+        "full-113",
+        "full-114"
+      ],
+      "day_start": 23,
+      "day_end": 25,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B020",
+      "file": "batches/B020.json",
+      "scene_ids": [
+        "full-115",
+        "full-116",
+        "full-117",
+        "full-118",
+        "full-119",
+        "full-120"
+      ],
+      "day_start": 25,
+      "day_end": 27,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B021",
+      "file": "batches/B021.json",
+      "scene_ids": [
+        "full-121",
+        "full-122",
+        "full-123",
+        "full-124",
+        "full-125",
+        "full-126"
+      ],
+      "day_start": 27,
+      "day_end": 27,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B022",
+      "file": "batches/B022.json",
+      "scene_ids": [
+        "full-127",
+        "full-128",
+        "full-129",
+        "full-130",
+        "full-131",
+        "full-132"
+      ],
+      "day_start": 28,
+      "day_end": 28,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B023",
+      "file": "batches/B023.json",
+      "scene_ids": [
+        "full-133",
+        "full-134",
+        "full-135",
+        "full-136",
+        "full-137",
+        "full-138"
+      ],
+      "day_start": 30,
+      "day_end": 30,
+      "status": "pending",
+      "max_new_images": 6,
+      "max_new_videos": 6,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    },
+    {
+      "batch_id": "B024",
+      "file": "batches/B024.json",
+      "scene_ids": [
+        "full-139",
+        "full-140",
+        "full-141"
+      ],
+      "day_start": 30,
+      "day_end": 30,
+      "status": "pending",
+      "max_new_images": 3,
+      "max_new_videos": 3,
+      "requires_previous_batch_outputs": false,
+      "common_references_only": true
+    }
+  ],
+  "output_contract": {
+    "master_progress": "state/master-progress.json",
+    "per_scene_statuses": [
+      "pending",
+      "image_running",
+      "image_ready",
+      "video_running",
+      "video_ready",
+      "needs_review",
+      "failed",
+      "blocked",
+      "reused_success"
+    ],
+    "status_truth": "Only mark ready after the actual file has been saved and verified. A promise, message, queued call or thumbnail is not a completed asset."
+  }
+}

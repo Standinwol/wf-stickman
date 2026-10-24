@@ -1,0 +1,194 @@
+[
+  {
+    "id": "demo-0001",
+    "legacy_id": "0001",
+    "image_sha256": "be58f61bf8f33a68b717ee09acb7bf091483a57b1819c64cc5c2679cad86aa51",
+    "video_sha256": "26d98280be28201b6eae021f08f1986f83bd7ff7712a0aa63071cc8d9d0ee827",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0001.png",
+      "workspace/rv-demo/package/images/0001.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0001.mp4",
+      "workspace/rv-demo/package/videos/0001.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": true
+  },
+  {
+    "id": "demo-0002",
+    "legacy_id": "0002",
+    "image_sha256": "cbf428ee78c6d69a5ffd540198185f9ac8aaeca04146d9d909f55ac0a2971e99",
+    "video_sha256": "d933c838b472f585b9b339f53b172176aaec4a3bf2054817a500c9f53d8cc82d",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0002.png",
+      "workspace/rv-demo/package/images/0002.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0002.mp4",
+      "workspace/rv-demo/package/videos/0002.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0005",
+    "legacy_id": "0005",
+    "image_sha256": "57fad19355acb66ab0459fa9649e4ad4774bbff3102fd76e2573344b99d5db15",
+    "video_sha256": "1a8e7f7fccbe31df9deff07cad50e2584f4db0069c71d4cd04356422320e7494",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0005.png",
+      "workspace/rv-demo/package/images/0005.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0005.mp4",
+      "workspace/rv-demo/package/videos/0005.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0006",
+    "legacy_id": "0006",
+    "image_sha256": "f4c523c1dd97faf2ce0bf659928701c370257c81c2b307851ca614207dc6561b",
+    "video_sha256": "4b9e8895716b2887061a91b3a24b8ec51cfcaadf74b5be694b58fac604e52211",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0006.png",
+      "workspace/rv-demo/package/images/0006.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0006.mp4",
+      "workspace/rv-demo/package/videos/0006.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": true
+  },
+  {
+    "id": "demo-0007",
+    "legacy_id": "0007",
+    "image_sha256": "db4df187c8ac187cb09b03e4ee995b897a14c071564de10af9447cf3d1b4793f",
+    "video_sha256": "c89ba59905f62f0569830581b24134e6677a3134b330134123d573b62e3cbb7d",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0007.png",
+      "workspace/rv-demo/package/images/0007.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0007.mp4",
+      "workspace/rv-demo/package/videos/0007.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0008",
+    "legacy_id": "0008",
+    "image_sha256": "0ea3b29b0cf308329c4568160067c7e56f95176ecc2b842f550b1481f3948d39",
+    "video_sha256": "d6219bd15f7e243affe9da26d4ea8f5dfc4814619f01604970ade43e6ab9784d",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0008.png",
+      "workspace/rv-demo/package/images/0008.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0008.mp4",
+      "workspace/rv-demo/package/videos/0008.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0009",
+    "legacy_id": "0009",
+    "image_sha256": "34bbdc748faba0ed22ab9b2a53ae9442c2c160064c8403e1f551090ee5c6caa7",
+    "video_sha256": "e4376e79566fc45f858eb9e4811b1c6ea16b113a7f0435be3769467e0c21d380",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0009.png",
+      "workspace/rv-demo/package/images/0009.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0009.mp4",
+      "workspace/rv-demo/package/videos/0009.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0010",
+    "legacy_id": "0010",
+    "image_sha256": "2df4b9c9f61a572a8f08bbec5cdc635a1d8904137d09a7c895527d68f5eb45f3",
+    "video_sha256": "1a11cfb064199a48535d37e73ba9943fac74e4ceb40897739d7be82c61d686aa",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0010.png",
+      "workspace/rv-demo/package/images/0010.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0010.mp4",
+      "workspace/rv-demo/package/videos/0010.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": true
+  },
+  {
+    "id": "demo-0012",
+    "legacy_id": "0012",
+    "image_sha256": "06447f66ff94159fc33f4055acfb628fb15d33c0263306eb8bb6d57e924fb6ef",
+    "video_sha256": "7e62a9d4d06d039ae45a22f21e48637130539aad067a3ce35d697dd65b454518",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0012.png",
+      "workspace/rv-demo/package/images/0012.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0012.mp4",
+      "workspace/rv-demo/package/videos/0012.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0003",
+    "legacy_id": "0003",
+    "image_sha256": "889f4f69f70e82ef00a271f2045c2d91a06abb3399cbdfe62b77e08b0a6caebb",
+    "video_sha256": "77df09ab0bf20972cc60dd9ace4d16139f99583470fd95a63066cd6978d62a9b",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0003.png",
+      "workspace/rv-demo/package/images/0003.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0003.mp4",
+      "workspace/rv-demo/package/videos/0003.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": false
+  },
+  {
+    "id": "demo-0004",
+    "legacy_id": "0004",
+    "image_sha256": "3fd45e6193cf252bdff1cf6a151671b6dbba9bb01e17180c95ca5e9674369e4b",
+    "video_sha256": "43e441d51920d221a12df8374649b0f9855f482640835c5730c511957bbc87f1",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0004.png",
+      "workspace/rv-demo/package/images/0004.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0004.mp4",
+      "workspace/rv-demo/package/videos/0004.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": true
+  },
+  {
+    "id": "demo-0013",
+    "legacy_id": "0013",
+    "image_sha256": "0e085d288826aa89aa4f9cb038073dca2a0dbf5247bb354149a940b935666ae2",
+    "video_sha256": "1d584b7deaef8daf95509635b705f60375688c8320267e6a21b11da7e8f1f510",
+    "image_candidates": [
+      "workspace/rv-demo/output/images/0013.png",
+      "workspace/rv-demo/package/images/0013.png"
+    ],
+    "video_candidates": [
+      "workspace/rv-demo/output/videos/0013.mp4",
+      "workspace/rv-demo/package/videos/0013.mp4"
+    ],
+    "policy": "Reuse actual verified files; no new generation. If missing, mark reuse_missing without charging another generation.",
+    "known_prior_qa_warning": true
+  }
+]

@@ -1,0 +1,1578 @@
+[
+  {
+    "id": "v5-001",
+    "order": 1,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Preserve the parked RV, solitary protagonist, roof solar panels, open side door and blue-gray snowbound city. Only light natural snow drift is needed; warm amber cabin light remains steady. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-002",
+    "order": 2,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The RV and all abandoned cars remain completely parked. Small snowflakes drift gently at varied depths. Keep the dark windows and road layout unchanged. The solitary protagonist makes only a tiny natural breathing motion while surveying the road. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-007",
+    "order": 3,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-008",
+    "order": 4,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The visible rear tire turns slowly in place and slips against packed snow, lifting only a small local puff of powder near its contact patch. The cream and teal RV never translates, rocks dramatically or drives away. Keep the protagonist at the existing cabin window, the warehouse wall fixed, and the snowbank shape stable. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-009",
+    "order": 5,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the analog fuel-gauge needle fixed at the same nonempty position. The concerned driver makes one small downward eye or head glance at the gauge, then stays still. Keep the warehouse wall and deep snow outside completely stationary. No new marks, digits or dashboard symbols appear. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-010",
+    "order": 6,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-011",
+    "order": 7,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The parked RV and warehouse wall remain fixed. Very light drifting snow moves near the rear tire and foreground, suggesting gradual accumulation without a visible time-lapse. The solitary adult makes only a subtle weight shift while examining the tire. Preserve the original depth of snow throughout this single shot. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-012",
+    "order": 8,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-013",
+    "order": 9,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The same adult makes one small controlled adjustment of the gloved hand holding the existing fuel nozzle at the filler. Keep the nozzle connected and the hose stable; do not show a second nozzle or spilling fuel. Canopy lights remain on throughout this shot. Light snow drifts, and the RV stays parked. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-014",
+    "order": 10,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The incidental gray-coated customer makes one small squeeze of the existing nozzle, then looks toward the dark blank pump display. Keep the main navy-parka adult at the RV in the background. Pump display, roadside sign and canopy lamps stay completely dark. Light snow crosses the forecourt. Neither person walks out of frame; no additional people appear. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-015",
+    "order": 11,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The navy-parka protagonist stays seated inside the RV. Within the same physically coherent side-mirror reflection, the incidental gray-coated person gives the glass entrance door one short restrained tug with both hands. The door stays stuck shut. Keep the reflected person entirely in the mirror, with no duplicated real-world figure, no extra inset, and no drifting mirror geometry. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-016",
+    "order": 12,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The seated protagonist makes a tiny head turn toward the side window, then holds a restrained relieved posture. Existing distant gray-coated bystanders remain beside their stationary cars, with only minimal natural motion. No one enters the RV or becomes a companion. Preserve the original vehicle and person counts. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-003",
+    "order": 13,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the adult seated at the same dinette. A very small breathing motion and a restrained glance across the existing supplies are sufficient. Tins, capped fuel can and water bottles do not move or multiply. Snow drifts slowly outside the window; the amber cabin light is steady. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-004",
+    "order": 14,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-005",
+    "order": 15,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. The adult remains in the driver's seat, holding the wheel and warming the other gloved hand near the same air grille. Show only a tiny finger or wrist adjustment and subtle breathing. The RV remains parked, the heater grille and unmarked dashboard stay geometrically stable, with gentle snowfall beyond the windshield. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-006",
+    "order": 16,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-017",
+    "order": 17,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the delivery truck fixed sideways across both lanes, the queued RV and all other cars stationary, and bridge and road geometry unchanged. A few existing distant bystanders may make tiny natural posture movements, with gentle snow drifting through the frame. No vehicle drives, slides, collides or clears the blocked route. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-018",
+    "order": 18,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "v5-019",
+    "order": 19,
+    "action": "reuse_existing_approved_assets",
+    "prompt_en": "Animate this exact supplied still as one continuous 10-second landscape shot. Use a locked-off camera for the entire shot: no push-in, zoom, pan, orbit, dolly, reframing, cut or transition. Preserve the hand-drawn 2D stickman style, original composition, character identity and clothing, RV geometry, cream body, muted teal stripe, door and window positions, and exactly two roof solar panels whenever visible. Keep the delivery truck fixed sideways across both lanes, the queued RV and all other cars stationary, and bridge and road geometry unchanged. A few existing distant bystanders may make tiny natural posture movements, with gentle snow drifting through the frame. No vehicle drives, slides, collides or clears the blocked route. Maintain one coherent moment rather than depicting the whole narration. No new people, duplicate characters, morphing, text, numerals, logos, emblems, flags or watermarks. Silent video: no speech, narration, music or generated sound effects. The supplied Japanese text is context only and must not be rendered or spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-001",
+    "order": 20,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Only the already visible stranded people take one small uphill step; all queued vehicles stay stopped. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-002",
+    "order": 21,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV makes a very short controlled turning movement within the clear gap; do not complete a whole journey or clear traffic. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-003",
+    "order": 22,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV is already parked facing the exit; the adult settles after stopping, with no vehicle translation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-004",
+    "order": 23,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult makes a small head turn while inspecting the compact interior; furniture and floor plan remain fixed. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-005",
+    "order": 24,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand rests near the open locker; preserve exactly one connected cylinder and one spare, without operating valves. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-006",
+    "order": 25,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult glances from the heater grille toward the house-battery compartment; props remain fixed and displays blank. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-006",
+    "order": 26,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-007",
+    "order": 27,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Light snow drifts across the two roof panels; keep the parked RV completely still and retain exactly two panels. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-008",
+    "order": 28,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult touches the edge of the folding dinette without transforming the furniture or opening a new scene. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-009",
+    "order": 29,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The kneeling adult adjusts one gloved hand near the visible traction boards; tools stay in their established places. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-010",
+    "order": 30,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult gently pushes the blank manual a few centimetres across the table, then stops. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-02",
+    "order": 31,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-011",
+    "order": 32,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. A condensation droplet falls near the wrist; the adult makes one small waking reaction under the blanket. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-012",
+    "order": 33,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult wipes one short section of the wet window with the existing towel; no sudden clearing of all condensation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-013",
+    "order": 34,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. One or two existing anonymous shoppers shift forward slightly; keep the queue, dark shop and RV layout unchanged. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-014",
+    "order": 35,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist picks up one existing plain tin by flashlight; preserve the clerk position and remaining stock. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-015",
+    "order": 36,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist takes one careful step toward the parked RV carrying the two existing bags; no duplicated bags. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-016",
+    "order": 37,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist watches the existing phone screen with a restrained head movement; no legible UI or changing montage. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-017",
+    "order": 38,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Keep the text-free emergency image on the phone stable; only the supporting hands and distant snow move subtly. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-018",
+    "order": 39,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The charging cable remains plugged in and lamps stay steady; the adult settles to rest without introducing flicker. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-018",
+    "order": 40,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-04",
+    "order": 41,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-019",
+    "order": 42,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult tries the faucet once; no running water appears, and the visible pump area remains geometrically stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-020",
+    "order": 43,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand turns one blank manual page slightly while the frozen plumbing and visible tank remain unchanged. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-021",
+    "order": 44,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. One small switch-off hand movement ends the unsuccessful pump attempt; the faucet remains dry. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-021",
+    "order": 45,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-022",
+    "order": 46,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult shifts one existing capped water container toward the table; keep all other containers stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-023",
+    "order": 47,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult places a folded item in the already crowded unused washroom; no running water or new plumbing appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-024",
+    "order": 48,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult presses a short unlettered tape marker onto the water container; no numbers or written marks appear. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-05",
+    "order": 49,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-025",
+    "order": 50,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV is stopped at the closed fuel-station entrance; snow drifts across the barrier, which remains closed. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-026",
+    "order": 51,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult inspects the dark fuel pump with one slight head movement; no fuel flows and no pump digits appear. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-027",
+    "order": 52,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult briefly raises the existing phone inside the parked cab; the blank screen stays text-free. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-028",
+    "order": 53,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV remains beside the half-open workshop shutter; falling snow moves gently without the shutter opening further. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-029",
+    "order": 54,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand adds one abstract route line to the receipt; never render letters, place names or digits. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-030",
+    "order": 55,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Wind drives snow through the gap between buildings and lightly trembles a loose exterior detail; the RV stays parked. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-031",
+    "order": 56,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult under the blanket listens toward the heater vent; use subtle posture motion and steady interior lighting. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-06",
+    "order": 57,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-032",
+    "order": 58,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult slowly turns toward the now-still heater grille; no visible warm-air plume or new appliance appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-033",
+    "order": 59,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The low-power indicator is a single steady unlettered light; the adult's finger pauses near the existing panel. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-034",
+    "order": 60,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult opens the blank manual a little farther; the gas locker and remaining cylinder count do not change. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-035",
+    "order": 61,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Keep the existing lit phone, exterior lamp and cabin lamp steady as the protagonist notices them; no extra devices appear. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-035",
+    "order": 62,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-036",
+    "order": 63,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist turns off one existing unnecessary lamp; avoid a whole-cabin blackout or new warning text. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-037",
+    "order": 64,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV advances very slowly along the existing daylight road; maintain lane, vehicle geometry and fixed camera. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-038",
+    "order": 65,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The driver glances between two blank analogue gauges while the scenery changes only minimally; no labels appear. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-038",
+    "order": 66,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-08",
+    "order": 67,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-039",
+    "order": 68,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The parked RV and half-open workshop shutter remain fixed; the adult makes a small cautious weight shift. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-040",
+    "order": 69,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. A few loose unlettered key tags sway slightly in the empty workshop; do not add staff or illuminate screens. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-041",
+    "order": 70,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult steadies the one compatible sealed spare cylinder already visible; no valve operation or extra cylinders. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-042",
+    "order": 71,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult shifts the folded windshield cover and long brush together slightly; preserve their shape and grip. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-043",
+    "order": 72,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lowers an unsuitable small part and pauses over the open manual; do not magically repair the water system. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-044",
+    "order": 73,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist takes one slow load-carrying step toward the RV; light snow softens existing footprints without time-lapse. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-045",
+    "order": 74,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand places the existing anonymous payment papers on the counter; no readable denominations or writing. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-09",
+    "order": 75,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-046",
+    "order": 76,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The long brush sweeps one reachable strip of snow from a panel; never show unsafe roof climbing or clear both panels instantly. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-047",
+    "order": 77,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult watches the unlettered charging indicator; use a small hand adjustment, no new readouts or changing numerals. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-048",
+    "order": 78,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Snow blows past the long warehouse wall; the RV is stopped nearby, not already deeply buried. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-049",
+    "order": 79,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV is already parked in the wall's lee; show restrained snow drift while keeping the initially clear exit visible. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-049",
+    "order": 80,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-050",
+    "order": 81,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult makes a small inspection movement beside the existing clear vent area; no snow piles grow within the shot. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-051",
+    "order": 82,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The hanging spoon makes one final tiny sway and settles short of the wall; keep the warm cabin still. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-052",
+    "order": 83,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The lone adult sleeps with a small breathing movement; restrained snow drifts outside the window only. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-052",
+    "order": 84,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-11",
+    "order": 85,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-053",
+    "order": 86,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult makes one short window-wiping movement with the existing towel; retain the morning inspection props. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-054",
+    "order": 87,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult returns one already visible item through the open side door; the RV and exterior snow remain stationary. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-055",
+    "order": 88,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult pulls the side door almost closed in one small controlled motion; do not shift the vehicle or interior layout. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-056",
+    "order": 89,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult checks the existing water-container level, lifting it only slightly; no new liquid or extra containers. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-057",
+    "order": 90,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult arranges one plain food item on the plate; no open cooking flame or additional meal appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-058",
+    "order": 91,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult wipes the existing spoon once and returns the hand toward its established hook. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-059",
+    "order": 92,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Hold the quiet solitary meal aftermath with subtle breathing and a steady warm light; no new action sequence. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-13",
+    "order": 93,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-060",
+    "order": 94,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The windshield insulation cover stays fitted; only drifting exterior snow and slight fabric movement are visible. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-061",
+    "order": 95,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult moves one existing pair of boots toward the rear living area; do not relocate all furniture. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-062",
+    "order": 96,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist sits at the single occupied table place; small breathing motion, no additional diners or companions. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-063",
+    "order": 97,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The hand adds separate abstract tally strokes to the notebook; no readable Japanese, numbers or interface graphics. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-064",
+    "order": 98,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult pauses the pencil over three separate unlettered notebook columns; all physical gauges remain unchanged. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-064",
+    "order": 99,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-065",
+    "order": 100,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The shovel clears one small patch by the entrance; wheel-deep snow remains untouched rather than vanishing. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-065",
+    "order": 101,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-15",
+    "order": 102,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-066",
+    "order": 103,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Light wind moves fine snow at the broken shop window; no people emerge and no new glass shatters. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-067",
+    "order": 104,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist takes one cautious step from the RV toward the nearby shop; keep both endpoints in the same shot. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-068",
+    "order": 105,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult places one existing plain tin into the bag and leaves the candle on the shelf; no multiplying supplies. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-069",
+    "order": 106,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Blowing snow becomes a little denser in front of the existing shop entrance; keep the warehouse location fixed. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-070",
+    "order": 107,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult looks down toward the fading footprints; wind moves loose powder without a sudden full whiteout transition. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-071",
+    "order": 108,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult waits under the awning, shifting weight slightly as wind reveals and obscures the same distant wall edge. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-072",
+    "order": 109,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The protagonist reaches the open RV doorway and pauses; preserve the wet gloves and abandoned tin without retrieving it. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-073",
+    "order": 110,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The seated adult makes one unsuccessful small zipper-grip movement; keep the cold hands restrained, not slapstick. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-074",
+    "order": 111,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lifts the existing orange rope toward its attachment point; one small controlled tying motion only. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-075",
+    "order": 112,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The orange marker moves gently in wind above the stationary RV; nearby visibility remains limited. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-075",
+    "order": 113,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-17",
+    "order": 114,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-076",
+    "order": 115,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lifts the one empty cylinder slightly and registers its light weight; no valve manipulation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-077",
+    "order": 116,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Hold the adult beside the visibly empty cylinder with a small downward glance; do not add a new full cylinder. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-078",
+    "order": 117,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The hand crosses out one abstract unlettered notebook tally; maintain the same paper and table layout. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-079",
+    "order": 118,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult takes a short step near the warehouse corner; sparse snow drifts over the partly exposed road. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-080",
+    "order": 119,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Wind moves powder toward the existing deep leeward drift around the parked RV; no dramatic time-lapse accumulation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-080",
+    "order": 120,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-081",
+    "order": 121,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. One boot sinks slightly into the already deep snow beside the rear wheel; the RV remains completely stationary. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-082",
+    "order": 122,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult settles inside near the warm vent, glancing toward the covered cab; keep the buried exterior unchanged. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-18",
+    "order": 123,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-083",
+    "order": 124,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult wakes and looks toward the silent vent; keep the night scene dark, without invented text or alarm graphics. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-084",
+    "order": 125,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. After the heater is off, the adult inspects the snow-covered exterior vent with a flashlight; no engine exhaust clouds. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-085",
+    "order": 126,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The side door opens only a little against the existing snowbank; no sudden clearance or broken door geometry. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-086",
+    "order": 127,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult removes one small amount of loose snow around the existing vent; no live engine in a sealed snowbank. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-087",
+    "order": 128,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult sits with coat on, watching the heater grille; retain the restrained waiting posture and warm light. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-088",
+    "order": 129,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand draws one bold abstract departure arrow in the notebook; no readable words or numerals. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-088",
+    "order": 130,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-089",
+    "order": 131,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult rests the existing phone beside the notebook after setting it; keep its screen blank and do not show UI digits. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-19",
+    "order": 132,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-090",
+    "order": 133,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The driver steadies both gloved hands on the wheel; the RV remains fixed despite the engine operating. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-091",
+    "order": 134,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV rocks only minimally as the driver applies a gentle input; the warehouse stays fixed in the window. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-092",
+    "order": 135,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The rear tire turns slowly in place with a small local powder puff; the RV never advances or clears the drift. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-093",
+    "order": 136,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The slipping wheel comes to rest beside the darker existing rut; no deeper dramatic digging or collision. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-094",
+    "order": 137,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult shifts one food container off the under-bed hatch; retain the rest of the obstructing stack. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-094",
+    "order": 138,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-095",
+    "order": 139,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult moves one existing box aside in the cramped cabin; traction boards stay visible under the bed. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-096",
+    "order": 140,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult looks from the stationary RV toward the unchanged warehouse doorway; snow drifts gently around the rut. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-096",
+    "order": 141,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-21",
+    "order": 142,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-097",
+    "order": 143,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. One short shovel stroke removes a small amount of snow from the planned path; the adult then pauses. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-098",
+    "order": 144,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult rests at the doorway and slowly flexes one gloved hand; no sudden recovery or additional helpers. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-099",
+    "order": 145,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult checks the folding shovel joint with a small hand movement; no breakage or flying parts. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-100",
+    "order": 146,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult tightens the existing shovel fastener by a small amount with the visible tool; retain all parts. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-101",
+    "order": 147,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The side door opens through the partially cleared patch; keep the remaining long path visibly snow-covered. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-102",
+    "order": 148,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult places one existing plain marker along the cleared edge; no instant extension of the path. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-103",
+    "order": 149,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult draws the shovel back inside and rests it beside the boots; do not put it outside again. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-23",
+    "order": 150,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-104",
+    "order": 151,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The needle holds near a quarter-full position while the driver looks down; no readable gauge letters or digits. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-105",
+    "order": 152,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Fine snow moves across the obscured roof panels; keep the parked RV still and the skies overcast. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-106",
+    "order": 153,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult steadies the spare cylinder already in use and checks the blank notebook; no new spare appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-107",
+    "order": 154,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lifts the existing coffee item slightly, then lowers it toward the same place among the remaining food. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-107",
+    "order": 155,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-108",
+    "order": 156,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The loose orange rope taps the exterior gently three times; do not introduce an intruder or an unseen person. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-109",
+    "order": 157,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The lone adult sits still in the dim cabin, listening; keep the door closed and no outside figure appears. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-110",
+    "order": 158,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Morning wind moves the loosened orange rope against the stationary RV; reveal no new threat. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-111",
+    "order": 159,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult gathers the loose rope end and makes a small retightening motion; no elaborate knot transformation. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-25",
+    "order": 160,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-112",
+    "order": 161,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Weak sunlight touches the exposed road beyond the warehouse corner; the parked RV remains in the old location. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-113",
+    "order": 162,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult studies the nearby office parking area from the existing viewpoint; no jump-cut travel. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-114",
+    "order": 163,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Wind moves fine snow through the open office parking area; keep its low buildings and open sky stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-115",
+    "order": 164,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult takes one cautious inspection step along the visible path; preserve deep patches and the return route. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-116",
+    "order": 165,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult compares two simple unlettered route sketches, making a small pencil gesture without new text. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-116",
+    "order": 166,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-117",
+    "order": 167,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult fastens one existing bag and places boots beside the driving seat; do not transform the interior. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-118",
+    "order": 168,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lifts a small section of the windshield insulation cover, revealing the same cab reflection. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-27",
+    "order": 169,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-119",
+    "order": 170,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. A single short shovel stroke refreshes a partly covered section of yesterday's path; keep the overall path incomplete. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-120",
+    "order": 171,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult slides the existing traction board a small distance into its prepared position; no instantaneous vehicle escape. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-121",
+    "order": 172,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV makes only a small tentative forward movement and stops; maintain the controlled slow recovery context. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-122",
+    "order": 173,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV advances slowly a short distance so the fixed warehouse shifts slightly in the mirror; no large camera movement. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-123",
+    "order": 174,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV is stopped after its short advance; the driver holds the wheel with a restrained relieved posture. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-124",
+    "order": 175,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV crawls a small distance along the partly cleared path; no wheel spin, speed or sudden snow disappearance. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-125",
+    "order": 176,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The parked RV holds at the newly recovered exit; the adult pauses rather than driving into a new location. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-125",
+    "order": 177,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-126",
+    "order": 178,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult rests a gloved hand beside the blank notebook and does not erase the abstract departure arrow. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-28",
+    "order": 179,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-127",
+    "order": 180,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The RV advances very slowly along the short route; keep the existing snow patches, lane and low winter daylight. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-128",
+    "order": 181,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult stands beside the newly parked RV and makes a small checking glance toward the open exit. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-129",
+    "order": 182,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The hanging spoon taps the cabinet lightly in wind; keep the new parking location and heater interior unchanged. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-130",
+    "order": 183,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The long brush removes one thin patch of panel snow; preserve exactly two panels and the open office parking geometry. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-131",
+    "order": 184,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hand adds separate abstract time and place marks to the notebook; never render readable text or numerals. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-132",
+    "order": 185,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult settles the shovel and two traction boards beside the accessible boots; nothing returns under the bed. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "day-30",
+    "order": 186,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-133",
+    "order": 187,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult wipes a short strip of morning condensation with the same towel; keep the thin new snow outside. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-134",
+    "order": 188,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult checks one partly covered plain path marker; avoid clearing all overnight snow in one shot. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-135",
+    "order": 189,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult surveys the remaining cans and water container without consuming or multiplying them; the faucet remains unused. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-135",
+    "order": 190,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-136",
+    "order": 191,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The driver looks from the blank analogue instruments toward the gray sky; no rescue signal or hopeful new vehicle. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-137",
+    "order": 192,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The gloved hands unfold the worn receipt slightly; its abstract route lines remain unlettered and stable. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-138",
+    "order": 193,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult lowers the receipt toward the steering wheel with a quiet reflective posture; no flashback or montage. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-139",
+    "order": 194,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The adult checks that the shovel and traction boards are within reach beside the doorway; no outside action sequence. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-140",
+    "order": 195,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. The pencil adds one simple exit arrow on the remaining blank corner of the receipt; no writing or numerals. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  },
+  {
+    "id": "card-140",
+    "order": 196,
+    "action": "ready_deterministic_graphic",
+    "prompt_en": null,
+    "source_seconds": null,
+    "playback_rate": 1
+  },
+  {
+    "id": "full-141",
+    "order": 197,
+    "action": "muse_generate_image_then_video",
+    "prompt_en": "Animate the actual approved still for this scene as one continuous 10-second landscape shot with a fully locked camera. No zoom, pan, push-in, orbit, reframing, cut or transition. Fine new snow falls beyond the closed door; the shovel remains safely inside beside the boots and the orange marker stays visible. Preserve the original geometry, character count, wardrobe, RV proportions, entrance side, windows, tools and exactly two roof solar panels whenever visible. Snow stays outside the cabin. Do not introduce extra people, text, numerals, logos or watermarks. Silent video with no speech, narration, music or generated SFX. The Japanese narration is context only and must not appear or be spoken.",
+    "source_seconds": 10,
+    "playback_rate": 1
+  }
+]

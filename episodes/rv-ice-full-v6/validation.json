@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "errors": [],
+  "batch_count": 24,
+  "new_unique_scenes": 141,
+  "ready_graphics": 43,
+  "reused_unique_demo_assets": 12,
+  "duration_seconds": 1284.8333333333333,
+  "checks": [
+    "Batch size, coverage and unique IDs",
+    "Locked style suffix and complete prompts",
+    "Prompt idempotency fingerprints",
+    "Actual voice timing and <=10-second shot coverage",
+    "No generated jobs for supplied graphics or demo assets",
+    "Reference existence declarations",
+    "Complete continuous timeline when available",
+    "Independent common ZIP sizes and SHA-256"
+  ]
+}

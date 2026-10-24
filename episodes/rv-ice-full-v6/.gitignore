@@ -1,0 +1,6 @@
+outputs/
+deliveries/
+state/master-progress.json
+__pycache__/
+*.tmp
+*.download

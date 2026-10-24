@@ -1,0 +1,176 @@
+{
+  "production_id": "rv-ice-full-v6",
+  "status": "prepared_not_submitted",
+  "batches": {
+    "B001": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-001"
+    },
+    "B002": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-007"
+    },
+    "B003": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-013"
+    },
+    "B004": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-019"
+    },
+    "B005": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-025"
+    },
+    "B006": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-031"
+    },
+    "B007": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-037"
+    },
+    "B008": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-043"
+    },
+    "B009": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-049"
+    },
+    "B010": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-055"
+    },
+    "B011": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-061"
+    },
+    "B012": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-067"
+    },
+    "B013": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-073"
+    },
+    "B014": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-079"
+    },
+    "B015": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-085"
+    },
+    "B016": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-091"
+    },
+    "B017": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-097"
+    },
+    "B018": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-103"
+    },
+    "B019": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-109"
+    },
+    "B020": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-115"
+    },
+    "B021": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-121"
+    },
+    "B022": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-127"
+    },
+    "B023": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-133"
+    },
+    "B024": {
+      "status": "pending",
+      "completed_ids": [],
+      "failed_ids": [],
+      "running": null,
+      "next_scene_id": "full-139"
+    }
+  },
+  "ready_graphics": 43,
+  "reused_demo_assets": 12
+}

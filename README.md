@@ -1,5 +1,7 @@
 # RV Ice Japanese Demo — Muse workflow
 
+**Gói toàn tập mới:** [RV Ice full v6 — 24 batch nhỏ](episodes/rv-ice-full-v6/README.md). Gồm kịch bản, prompt ảnh/video JSON, timing thực, 43 khung đồ họa đã xuất và công cụ checkpoint từng asset. Các tệp demo cũ bên dưới được giữ làm lịch sử và nguồn reuse.
+
 Gói làm việc cho Muse web: **13 cảnh demo, timeline cuối 85,7 giây**.
 
 - Dùng lại 13 ảnh đã chọn và clip 0001 đã tạo thành công.

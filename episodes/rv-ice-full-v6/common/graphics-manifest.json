@@ -1,0 +1,346 @@
+[
+  {
+    "id": "v5-007",
+    "kind": "day",
+    "file": "graphics/v5-007.png",
+    "bytes": 46273,
+    "sha256": "0a46d7af92a4434036834d4073c664b676f8668abafad834adad8af259e20479",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "v5-010",
+    "kind": "status",
+    "file": "graphics/v5-010.png",
+    "bytes": 931588,
+    "sha256": "cb233a558318a3526293fd7f52a38d2a35336c54dc6279bd9f279c2b293b2aa6",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "v5-012",
+    "kind": "day",
+    "file": "graphics/v5-012.png",
+    "bytes": 40759,
+    "sha256": "de3ecbfbb304f682dad0e3d783fc109fe7450aefbb5ed12d5fcebe01592b3ef8",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "v5-004",
+    "kind": "supplies",
+    "file": "graphics/v5-004.png",
+    "bytes": 918871,
+    "sha256": "8c45e1bab0d2255d773fb1a143a8e1057494f9a6460954090bd97e5009837a63",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "v5-006",
+    "kind": "energy",
+    "file": "graphics/v5-006.png",
+    "bytes": 926614,
+    "sha256": "9e4a55ce3c89d703c6c01258d848eeb39f578610f6a240e9a4e3f03c941e472f",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "v5-018",
+    "kind": "route",
+    "file": "graphics/v5-018.png",
+    "bytes": 865962,
+    "sha256": "661e311d7f163343c260b9fca7d7fc05427eb51b09828f0af65080af26fb0a19",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-006",
+    "kind": "energy",
+    "file": "graphics/card-006.png",
+    "bytes": 926614,
+    "sha256": "9e4a55ce3c89d703c6c01258d848eeb39f578610f6a240e9a4e3f03c941e472f",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-02",
+    "kind": "day",
+    "file": "graphics/day-02.png",
+    "bytes": 39199,
+    "sha256": "e34aa610b224fd0c56cbc113dfb1d791d6163c3a3fe5e346fd5b839478e12a08",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-018",
+    "kind": "resources",
+    "file": "graphics/card-018.png",
+    "bytes": 926019,
+    "sha256": "c2dede1e2c312e02e6a1450207690819c65162153f8cf63dda0489c3230c7b68",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-04",
+    "kind": "day",
+    "file": "graphics/day-04.png",
+    "bytes": 37582,
+    "sha256": "a76f925119d709ee4120f244fc52891bc7c4af89f9f454655b9de23d1faefae2",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-021",
+    "kind": "rule",
+    "file": "graphics/card-021.png",
+    "bytes": 903921,
+    "sha256": "a360bcc2ad402627e5ef87b486743fdc8bf4fd84671cbf1e0e4b9232d7484c6e",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-05",
+    "kind": "day",
+    "file": "graphics/day-05.png",
+    "bytes": 39269,
+    "sha256": "77b6f32bc22a63630116585dcfd89566a028cc1493c6c83edbb9b676fe8e06a4",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-06",
+    "kind": "day",
+    "file": "graphics/day-06.png",
+    "bytes": 40911,
+    "sha256": "845d579d096da6a1e40ac50c33ae5d3e541f011077086eef0bee672a9307963b",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-035",
+    "kind": "energy",
+    "file": "graphics/card-035.png",
+    "bytes": 921764,
+    "sha256": "32eda7d1068c4e14c045f571fc948feb62e994162e9a9a7dd7c6eb546e0b5122",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-038",
+    "kind": "resources",
+    "file": "graphics/card-038.png",
+    "bytes": 926676,
+    "sha256": "4496e471eb8e0e621925ebec167f26b09fc37524a86faead3ace8d487b4e612a",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-08",
+    "kind": "day",
+    "file": "graphics/day-08.png",
+    "bytes": 41395,
+    "sha256": "92ef7d12baacb96a3c6b4f96e2852523c038660015fb22581e9963bcc5deb8a8",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-09",
+    "kind": "day",
+    "file": "graphics/day-09.png",
+    "bytes": 40856,
+    "sha256": "5a8c723e8d7bc306ff0618e6370798f3e183916bd493ad3e98706bb58a869213",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-049",
+    "kind": "site",
+    "file": "graphics/card-049.png",
+    "bytes": 825765,
+    "sha256": "eb49ebd2d1301e0235b90cb4a42d8f418b9606e7b354b5ea8ce54fc8bdea0d63",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-052",
+    "kind": "rule",
+    "file": "graphics/card-052.png",
+    "bytes": 913619,
+    "sha256": "0bd41232a62f00b1d8fb502b00760730e20ef3f91c96901567e150402c58db28",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-11",
+    "kind": "day",
+    "file": "graphics/day-11.png",
+    "bytes": 37202,
+    "sha256": "33b2c04eb4be662a24c447c0390a67d7fa575f8e26b502add5a44f519cc9ca5a",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-13",
+    "kind": "day",
+    "file": "graphics/day-13.png",
+    "bytes": 41038,
+    "sha256": "84283aa8dcc95010415205f421409f14d5a2fb38532b81b2aeb5a7f2ade32d55",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-064",
+    "kind": "resources",
+    "file": "graphics/card-064.png",
+    "bytes": 938751,
+    "sha256": "da2623d304b403e509ba2424e781f8ee85455e59f613464bde43a39d827365c7",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-065",
+    "kind": "snow",
+    "file": "graphics/card-065.png",
+    "bytes": 873504,
+    "sha256": "811af2ca720920ce1901d89983d5a21b6b98dc64fbfae5b2d36bdc45572c16dd",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-15",
+    "kind": "day",
+    "file": "graphics/day-15.png",
+    "bytes": 39999,
+    "sha256": "e15a9e504e1b684116d5f70926c329fa5b465c645c7c0c14eda147bcc508f85c",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-075",
+    "kind": "route",
+    "file": "graphics/card-075.png",
+    "bytes": 998537,
+    "sha256": "fa8d45f90d03e17afae3b2726eab9ab0092d723a7e5d15be76cfd0d85881c355",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-17",
+    "kind": "day",
+    "file": "graphics/day-17.png",
+    "bytes": 38708,
+    "sha256": "4824b6b771091a0414eec1b855b2e47b1a48ff3f27ac786576cc18ea8d98fcf6",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-080",
+    "kind": "site",
+    "file": "graphics/card-080.png",
+    "bytes": 806810,
+    "sha256": "5e9f190324b5087e5f7e32c94b6103d67519911b03a14a6952c1cbe554648c3e",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-18",
+    "kind": "day",
+    "file": "graphics/day-18.png",
+    "bytes": 42070,
+    "sha256": "97be0463b3e2e96c713606fceab743c06a194a5aeec6be501d85596aad71e5b7",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-088",
+    "kind": "rule",
+    "file": "graphics/card-088.png",
+    "bytes": 910936,
+    "sha256": "701efa14af74a16941d80e702610d556090979119d0b4450aa2fcc020a2cd138",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-19",
+    "kind": "day",
+    "file": "graphics/day-19.png",
+    "bytes": 41612,
+    "sha256": "8e3fd48e573a7b24195e5033aa8d42f0072ea8db84304c9d3a6af82d61e68949",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-094",
+    "kind": "storage",
+    "file": "graphics/card-094.png",
+    "bytes": 766602,
+    "sha256": "b27efdb4337689d6aedea7c3b1b91b5c40cec5a39d24af79428c77cc088b739c",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-096",
+    "kind": "status",
+    "file": "graphics/card-096.png",
+    "bytes": 931588,
+    "sha256": "cb233a558318a3526293fd7f52a38d2a35336c54dc6279bd9f279c2b293b2aa6",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-21",
+    "kind": "day",
+    "file": "graphics/day-21.png",
+    "bytes": 39974,
+    "sha256": "4039809ba05593628dfecc1d2b3857026293db3000403504e3659eddedc3789b",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-23",
+    "kind": "day",
+    "file": "graphics/day-23.png",
+    "bytes": 43487,
+    "sha256": "705dcc936a1ac7dd44688120917388eb43b32e0472172ac3289e65931357d2f5",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-107",
+    "kind": "resources",
+    "file": "graphics/card-107.png",
+    "bytes": 932877,
+    "sha256": "43289781eb3702dae783be0c120c1d08c54df5e991a7ff1046fd5059ea467815",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-25",
+    "kind": "day",
+    "file": "graphics/day-25.png",
+    "bytes": 42605,
+    "sha256": "866e39a294a8caf8fab964681eb0fb4408049ee9f8508ce14b4c87731df9aa72",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-116",
+    "kind": "comparison",
+    "file": "graphics/card-116.png",
+    "bytes": 941853,
+    "sha256": "5464db6e4bf271739fb4ca10aec1af9437f708ba86e0cd89565930307b7ca078",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-27",
+    "kind": "day",
+    "file": "graphics/day-27.png",
+    "bytes": 41368,
+    "sha256": "497c6d57b9a0db5481e6eb231fbf0dc09bbc7bad0ce40e3a562948be5c07a289",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-125",
+    "kind": "route",
+    "file": "graphics/card-125.png",
+    "bytes": 862900,
+    "sha256": "d199cb79fa3987a8ffdfd10b9e39401897cc910592a509e19ca28a73b8f1274d",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-28",
+    "kind": "day",
+    "file": "graphics/day-28.png",
+    "bytes": 44508,
+    "sha256": "1e36d73f9fe988119984914e5caa0005ae2c5878b1b30cd4483bac3ef829c240",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "day-30",
+    "kind": "day",
+    "file": "graphics/day-30.png",
+    "bytes": 44328,
+    "sha256": "76ecc4df89773d8a91999cd8f8bac2fcafdb048b3f8bcc21cb65549fe9f4e11c",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-135",
+    "kind": "resources",
+    "file": "graphics/card-135.png",
+    "bytes": 948265,
+    "sha256": "f7d31504ce882f99bb0c0253eb999de3c71a2d49c109ee54b8e6395ef6d1ffe8",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  },
+  {
+    "id": "card-140",
+    "kind": "rule",
+    "file": "graphics/card-140.png",
+    "bytes": 904532,
+    "sha256": "b555c5c308e11270f1b144532f696e8ac16e03c632e83bcdb2b576d4d5679cf4",
+    "generation": "deterministic Remotion/SVG; no AI generation"
+  }
+]
