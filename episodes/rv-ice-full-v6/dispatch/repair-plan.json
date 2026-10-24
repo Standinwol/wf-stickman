@@ -1,0 +1,31 @@
+{
+  "revision": "v6-runner-r2",
+  "observed_state_source": "Muse report after the second completed message; check live progress before acting.",
+  "do_not_recreate_approved_assets": true,
+  "repairs": [
+    {
+      "batch_id": "B001",
+      "scene_id": "full-001",
+      "stage": "image",
+      "reason": "Confirmed terminal image-generation error; no file saved. One extra attempt allowed."
+    },
+    {
+      "batch_id": "B001",
+      "scene_id": "full-002",
+      "stage": "video",
+      "reason": "Keep approved still; repair camera drift and added solar panels. Save revision r02 separately."
+    },
+    {
+      "batch_id": "B001",
+      "scene_id": "full-005",
+      "stage": "video",
+      "reason": "Keep approved still; repair tighter framing/crop. Save revision r02 separately."
+    }
+  ],
+  "next_first_pass_at_observation": {
+    "batch_id": "B002",
+    "scene_id": "full-009",
+    "stage": "image"
+  },
+  "note": "This is a repair list, never a replacement checkpoint. Omit any repair already completed in live state."
+}

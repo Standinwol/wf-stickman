@@ -1,0 +1,28 @@
+{
+  "revision": "v6-runner-r2",
+  "source_prompt_revision": "03bc5f74fa0ef514c4a0441532141484aab98e84",
+  "delivery_batch_size": 6,
+  "max_scene_ids_per_work_unit": 2,
+  "max_work_units_per_message": 1,
+  "one_generation_at_a_time": true,
+  "retry_policy": {
+    "provider": "Muse built-in image and image-to-video tools; signed-in Chrome px75 account",
+    "external_paid_api": false,
+    "purchase_credits": false,
+    "upgrade_plan": false,
+    "account_switching": false,
+    "use_existing_quota_only": true,
+    "max_active_generations": 1,
+    "max_new_image_calls_per_scene": 2,
+    "max_new_video_calls_per_scene": 2,
+    "creative_regeneration": "bounded_repair_only",
+    "transient_retry": "Poll/download any unresolved job; do not resubmit. A confirmed terminal generation failure or saved visual QA rejection may use the bounded retry policy. Retrieval-only retries do not spend generation calls.",
+    "global_blocker": "Stop submitting new media calls, persist and publish partial output, mark remaining work blocked, and report the exact service error. No unsolicited recurring schedule.",
+    "max_extra_generation_calls_production": 12,
+    "repair_rule": "At most one extra call per rejected/terminally failed stage, shared production budget of 12 extra calls. Prepare retry explicitly with checkpoint.py retry. Never recreate approved images or videos; preserve rejected files with versioned replacement paths.",
+    "message_limit": "A per-message tool/image cap is a turn boundary, not a permanent scene/account failure. Save the current job and checkpoint, package partial output and state the exact next work unit. Never mark untouched scenes blocked for a per-message cap."
+  },
+  "cross_message_continuation": "The JSON/helper reports state only. It cannot self-send a new Muse message or bypass a per-message cap. A real continuation/task/dispatcher must initiate the next message.",
+  "resume_order": "Unresolved existing job first; then first-pass pending scenes; then bounded repairs.",
+  "authoritative_state": "Existing outputs/Bxxx/progress.json and actual asset hashes. Seed/static work units never override live state."
+}

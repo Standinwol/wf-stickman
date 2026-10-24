@@ -6,10 +6,10 @@ Giọng toàn tập đã được tạo bằng OmniVoice speed 0.8 và căn theo
 
 ## Batch
 
-- **24 batch**, tối đa **6 cảnh mới/batch**, một lượt generation hoạt động tại một thời điểm.
+- **24 batch bàn giao**, tối đa **6 cảnh/batch**; runner r2 chia thành **71 work unit**, tối đa **2 scene ID/tin nhắn**, một lượt generation hoạt động tại một thời điểm.
 - Mỗi cảnh: ảnh có reference thật → kiểm tra ảnh → lưu và checkpoint → image-to-video 10 giây → tải file thật → giữ raw, tách tiếng bằng stream copy → kiểm tra → checkpoint.
 - Batch sau chỉ cần common references, không phụ thuộc video của batch trước.
-- Sau từng batch, trả các ZIP nhỏ độc lập và JSON trạng thái. Sau đó tiếp tục batch kế tiếp, không yêu cầu dán lại prompt.
+- Sau từng work unit, trả ZIP partial và checkpoint. Đọc [hướng dẫn tiếp tục](RESUME.vi.md). JSON không tự mở tin nhắn Muse tiếp theo; phải có lượt nhắn mới hoặc cơ chế continuation thật.
 - Giữ ảnh đã xong nếu video lỗi. Nếu một cảnh lỗi, đánh dấu riêng cảnh/stage đó, tiếp tục các cảnh độc lập.
 - Nếu hết quota hoặc lỗi toàn tài khoản: dừng gọi tạo mới, lưu và xuất phần đã có, báo chính xác ID còn thiếu. Không mua credit, đổi gói, đổi tài khoản hay gọi API ngoài trả phí.
 
@@ -67,3 +67,7 @@ Helper xác minh SHA-256 của file trước khi reuse. Nó giữ trạng thái 
 Giữ một nhân vật chính sống một mình, RV kem sọc teal và hai tấm solar. Trạng thái tuyết và đồ đạc theo ngày có trong từng scene. Camera video đứng yên; chuyển động hành động/môi trường nhẹ, ngoại trừ các cảnh xe thực sự di chuyển. Không chữ, số hay logo sinh trong cảnh truyện. Giữ nguyên chữ Nhật trong 43 graphic có sẵn. Video có âm thanh phải được giữ raw và tạo bản silent riêng bằng stream copy.
 
 Gói này là tài liệu và input đã hoàn tất, không phải tuyên bố 141 ảnh/video đã được Muse tạo. Trạng thái gửi/chạy thực được theo dõi ngoài manifest nguồn.
+
+## Runner r2: tiếp tục và sửa riêng
+
+Đọc [RESUME.vi.md](RESUME.vi.md). `tools/dispatch.py next` chọn tối đa 2 cảnh từ checkpoint thật. `tools/update_runner.py` chỉ cập nhật manifest/runner tương thích. `checkpoint.py retry` mở đúng một lượt sửa terminal/QA rejection, tối đa 12 call sửa chung cả tập; giữ file cũ, ảnh đã đạt và fingerprint gốc. Thư mục `dispatch/` có chính sách, 71 work unit và danh sách sửa B001 đã biết.

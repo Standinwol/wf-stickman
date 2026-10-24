@@ -21,6 +21,14 @@ def validate(root):
         all_ids+=ids
     if len(all_ids)!=141 or len(set(all_ids))!=141:errors.append('New scene coverage is not exactly 141 unique IDs')
     if not master['service_policy']['max_active_generations']==1:errors.append('Generations must be sequential')
+    policy=read('dispatch/resume-policy.json');units=read('dispatch/work-units.json')['units']
+    if policy['max_scene_ids_per_work_unit']!=2 or policy['max_work_units_per_message']!=1:errors.append('Execution work unit must be two scenes per message')
+    if any(not 1<=len(unit['scene_ids'])<=2 for unit in units):errors.append('Oversized execution work unit')
+    unit_ids=[sid for unit in units for sid in unit['scene_ids']]
+    if sorted(unit_ids)!=sorted(all_ids):errors.append('Work units must cover every scene exactly once')
+    if master['service_policy']['max_extra_generation_calls_production']!=12:errors.append('Unexpected shared repair budget')
+    for batch in master['batches']:
+        if read(batch['file'])['service_policy']!=master['service_policy']:errors.append('Conflicting per-batch retry policy')
     # Full package contains the full storyboard; the bootstrap workspace may omit this optional file.
     if (root/'storyboard.full.json').exists():
         seq=read('storyboard.full.json');cursor=0

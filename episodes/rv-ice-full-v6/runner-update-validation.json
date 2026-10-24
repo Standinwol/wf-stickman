@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "network_calls": 0,
+  "generation_calls": 0,
+  "checks": [
+    "Compatible update preserves live running job, approved asset bytes and master state",
+    "Incompatible checkpoint rejects the update before the first write"
+  ]
+}

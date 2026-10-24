@@ -1,11 +1,5 @@
-Thực hiện sản xuất toàn tập RV băng giá theo master-workflow.json của thư mục này, dùng revision commit đã khóa trong tin nhắn giao việc.
+Đọc RESUME.vi.md và master-workflow.json. Dùng Chrome px75, quota hiện có. Runner r2: batch bàn giao 6 cảnh, work unit thực thi 2 cảnh/tin nhắn; checkpoint thật quyết định điểm tiếp. Chạy python tools/dispatch.py next. Tạo ảnh rồi video thật, một job mỗi lúc, lưu sau từng asset. Không tạo lại 43 graphic và 12 bộ demo, không tạo voice/nhạc/phụ đề/render cuối.
 
-Tải bootstrap.py và chạy với base URL pinned. Xác minh SHA-256, giải nén common references/graphics, chạy validate_package.py. Không clone/tải tất cả lịch sử demo cũ nếu không cần.
+Lỗi terminal hoặc QA rejected được tối đa một retry riêng/stage qua checkpoint.py retry, tối đa 12 call sửa chung toàn tập. Giữ ảnh đã đạt; version file sửa r02, giữ nguyên file cũ. Không retry job chưa rõ kết quả, không reset batch, không yêu cầu người dùng phê duyệt lại các sửa nằm trong chính sách này.
 
-141 cảnh mới chia 24 batch, tối đa 6 cảnh/batch. Chạy B001 rồi lần lượt B002…B024. Chỉ tải/đọc prompt của batch đang chạy. Mỗi cảnh tạo ảnh với actual image references, kiểm tra và lưu ảnh trước khi dùng ảnh đó tạo video thật 10 giây. Một generation hoạt động mỗi lúc. Không thay image-to-video bằng zoom/pan code. Không tạo lại 12 bộ demo cũ hoặc 43 PNG đồ họa đã có. Không sửa script Nhật, tạo voice, nhạc, phụ đề hoặc bản dựng cuối.
-
-Lưu checkpoint sau từng asset và ngay khi có generation job_id. Kết quả chưa rõ phải poll/download job đó, không gửi generation trùng. Tạo ZIP nhỏ độc lập và công bố link sau mỗi batch trước khi sang batch tiếp theo. Không chờ gộp cả tập mới bàn giao. Tự tiếp tục các batch không cần hỏi lại giữa cảnh/batch; nếu turn/context kết thúc, lưu exact next ID/stage và phần đã làm để tiếp tục từ đó, không khởi động lại từ đầu.
-
-Chỉ dùng quota tài khoản Muse hiện tại trong Chrome px75; không mua credit, đổi gói/tài khoản hay dùng API ngoài trả phí. Lỗi một cảnh: giữ các cảnh và ảnh đã xong, báo lỗi riêng rồi tiếp tục cảnh độc lập. Lỗi quota/toàn tài khoản: dừng generation, xuất phần đã có và báo chính xác cảnh còn thiếu. Không tự lên lịch nhắc hoặc retry định kỳ.
-
-Bắt đầu thực thi B001 ngay sau preflight; không chỉ trả kế hoạch. Khi phản hồi, nêu batch, scene/stage đang chạy thật và những file đã lưu thật. Chỉ đánh dấu complete khi có file và kiểm tra được.
+Một work unit xong: package và trả file thật, exact next scene/stage. JSON không tự mở tin nhắn mới. Nếu Muse có cơ chế continuation thật, dùng nó trong phạm vi công việc đã giao và báo actual task/job ID; nếu không có thì nói rõ cần tin nhắn tiếp. Không hứa chạy nền khi chưa có job thật.

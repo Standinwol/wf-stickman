@@ -19,7 +19,7 @@ def main():
         dest.parent.mkdir(parents=True,exist_ok=True);tmp=dest.with_suffix(dest.suffix+'.download');tmp.write_bytes(content);os.replace(tmp,dest);return dest
     checks=json.loads(download('checksums.json').read_text(encoding='utf-8'))['files']
     master=json.loads(download('master-workflow.json',checks['master-workflow.json']).read_text(encoding='utf-8'))
-    names=['common/creative-bible.json','common/references.zip','common/references-manifest.json','common/graphics.zip','common/graphics-manifest.json','common/reuse-existing.json','tools/checkpoint.py','tools/validate_package.py','state/master-progress.seed.json']+[b['file'] for b in master['batches']]
+    names=['common/creative-bible.json','common/references.zip','common/references-manifest.json','common/graphics.zip','common/graphics-manifest.json','common/reuse-existing.json','tools/checkpoint.py','tools/dispatch.py','tools/update_runner.py','tools/validate_package.py','dispatch/resume-policy.json','dispatch/work-units.json','dispatch/repair-plan.json','RESUME.vi.md','state/master-progress.seed.json']+[b['file'] for b in master['batches']]
     for name in names:download(name,checks[name])
     for name in ['common/references.zip','common/graphics.zip']:
         with zipfile.ZipFile(root/name) as z:

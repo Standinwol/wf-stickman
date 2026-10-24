@@ -7,6 +7,13 @@
     "Restart after a saved image resumes at video, preserving the image",
     "Completed image/video skips to the next exact scene ID after restart",
     "Changed asset hash prevents unsafe reuse",
-    "Partial batch produces independent ZIP delivery and master checkpoint without losing successes"
+    "Partial batch produces independent ZIP delivery and master checkpoint without losing successes",
+    "An approved video cannot be repaired or overwritten",
+    "A terminal image failure resumes once at a versioned image path; video uses that exact saved still",
+    "Rejected video repair retains the approved still, original raw/silent/contact sheet and separate r02 outputs",
+    "A second failure cannot trigger a third call for the same stage",
+    "Delivery includes both original rejected and repaired videos with metadata history",
+    "Dispatcher skips existing successes and returns exactly two next scenes from live checkpoints",
+    "Production repair budget is enforced across all scene stages"
   ]
 }

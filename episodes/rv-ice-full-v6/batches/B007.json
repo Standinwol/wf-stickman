@@ -26,11 +26,14 @@
     "account_switching": false,
     "use_existing_quota_only": true,
     "max_active_generations": 1,
-    "max_new_image_calls_per_scene": 1,
-    "max_new_video_calls_per_scene": 1,
-    "creative_regeneration": false,
-    "transient_retry": "Resume or poll an existing generation job by job_id. Never resubmit a generation whose result is uncertain. Retry download/network retrieval at most twice, without triggering another generation.",
-    "global_blocker": "Stop submitting new media calls, persist and publish partial output, mark remaining work blocked, and report the exact service error. No unsolicited recurring schedule."
+    "max_new_image_calls_per_scene": 2,
+    "max_new_video_calls_per_scene": 2,
+    "creative_regeneration": "bounded_repair_only",
+    "transient_retry": "Poll/download any unresolved job; do not resubmit. A confirmed terminal generation failure or saved visual QA rejection may use the bounded retry policy. Retrieval-only retries do not spend generation calls.",
+    "global_blocker": "Stop submitting new media calls, persist and publish partial output, mark remaining work blocked, and report the exact service error. No unsolicited recurring schedule.",
+    "max_extra_generation_calls_production": 12,
+    "repair_rule": "At most one extra call per rejected/terminally failed stage, shared production budget of 12 extra calls. Prepare retry explicitly with checkpoint.py retry. Never recreate approved images or videos; preserve rejected files with versioned replacement paths.",
+    "message_limit": "A per-message tool/image cap is a turn boundary, not a permanent scene/account failure. Save the current job and checkpoint, package partial output and state the exact next work unit. Never mark untouched scenes blocked for a per-message cap."
   },
   "checkpoint": {
     "progress": "outputs/B007/progress.json",
@@ -483,5 +486,11 @@
       "duration_seconds": 7.266666666666667,
       "batch_id": "B007"
     }
-  ]
+  ],
+  "execution_work_unit": {
+    "max_scene_ids": 2,
+    "max_work_units_per_message": 1,
+    "delivery_batch_scene_count_unchanged": true,
+    "publish_partial_after_unit": true
+  }
 }

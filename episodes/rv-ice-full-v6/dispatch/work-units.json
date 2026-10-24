@@ -1,0 +1,645 @@
+{
+  "production_id": "rv-ice-full-v6",
+  "work_unit_count": 71,
+  "delivery_batch_count": 24,
+  "units": [
+    {
+      "work_unit_id": "B001-U01",
+      "batch_file": "batches/B001.json",
+      "scene_ids": [
+        "full-001",
+        "full-002"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B001-U02",
+      "batch_file": "batches/B001.json",
+      "scene_ids": [
+        "full-003",
+        "full-004"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B001-U03",
+      "batch_file": "batches/B001.json",
+      "scene_ids": [
+        "full-005",
+        "full-006"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B002-U01",
+      "batch_file": "batches/B002.json",
+      "scene_ids": [
+        "full-007",
+        "full-008"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B002-U02",
+      "batch_file": "batches/B002.json",
+      "scene_ids": [
+        "full-009",
+        "full-010"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B002-U03",
+      "batch_file": "batches/B002.json",
+      "scene_ids": [
+        "full-011",
+        "full-012"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B003-U01",
+      "batch_file": "batches/B003.json",
+      "scene_ids": [
+        "full-013",
+        "full-014"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B003-U02",
+      "batch_file": "batches/B003.json",
+      "scene_ids": [
+        "full-015",
+        "full-016"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B003-U03",
+      "batch_file": "batches/B003.json",
+      "scene_ids": [
+        "full-017",
+        "full-018"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B004-U01",
+      "batch_file": "batches/B004.json",
+      "scene_ids": [
+        "full-019",
+        "full-020"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B004-U02",
+      "batch_file": "batches/B004.json",
+      "scene_ids": [
+        "full-021",
+        "full-022"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B004-U03",
+      "batch_file": "batches/B004.json",
+      "scene_ids": [
+        "full-023",
+        "full-024"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B005-U01",
+      "batch_file": "batches/B005.json",
+      "scene_ids": [
+        "full-025",
+        "full-026"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B005-U02",
+      "batch_file": "batches/B005.json",
+      "scene_ids": [
+        "full-027",
+        "full-028"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B005-U03",
+      "batch_file": "batches/B005.json",
+      "scene_ids": [
+        "full-029",
+        "full-030"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B006-U01",
+      "batch_file": "batches/B006.json",
+      "scene_ids": [
+        "full-031",
+        "full-032"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B006-U02",
+      "batch_file": "batches/B006.json",
+      "scene_ids": [
+        "full-033",
+        "full-034"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B006-U03",
+      "batch_file": "batches/B006.json",
+      "scene_ids": [
+        "full-035",
+        "full-036"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B007-U01",
+      "batch_file": "batches/B007.json",
+      "scene_ids": [
+        "full-037",
+        "full-038"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B007-U02",
+      "batch_file": "batches/B007.json",
+      "scene_ids": [
+        "full-039",
+        "full-040"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B007-U03",
+      "batch_file": "batches/B007.json",
+      "scene_ids": [
+        "full-041",
+        "full-042"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B008-U01",
+      "batch_file": "batches/B008.json",
+      "scene_ids": [
+        "full-043",
+        "full-044"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B008-U02",
+      "batch_file": "batches/B008.json",
+      "scene_ids": [
+        "full-045",
+        "full-046"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B008-U03",
+      "batch_file": "batches/B008.json",
+      "scene_ids": [
+        "full-047",
+        "full-048"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B009-U01",
+      "batch_file": "batches/B009.json",
+      "scene_ids": [
+        "full-049",
+        "full-050"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B009-U02",
+      "batch_file": "batches/B009.json",
+      "scene_ids": [
+        "full-051",
+        "full-052"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B009-U03",
+      "batch_file": "batches/B009.json",
+      "scene_ids": [
+        "full-053",
+        "full-054"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B010-U01",
+      "batch_file": "batches/B010.json",
+      "scene_ids": [
+        "full-055",
+        "full-056"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B010-U02",
+      "batch_file": "batches/B010.json",
+      "scene_ids": [
+        "full-057",
+        "full-058"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B010-U03",
+      "batch_file": "batches/B010.json",
+      "scene_ids": [
+        "full-059",
+        "full-060"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B011-U01",
+      "batch_file": "batches/B011.json",
+      "scene_ids": [
+        "full-061",
+        "full-062"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B011-U02",
+      "batch_file": "batches/B011.json",
+      "scene_ids": [
+        "full-063",
+        "full-064"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B011-U03",
+      "batch_file": "batches/B011.json",
+      "scene_ids": [
+        "full-065",
+        "full-066"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B012-U01",
+      "batch_file": "batches/B012.json",
+      "scene_ids": [
+        "full-067",
+        "full-068"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B012-U02",
+      "batch_file": "batches/B012.json",
+      "scene_ids": [
+        "full-069",
+        "full-070"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B012-U03",
+      "batch_file": "batches/B012.json",
+      "scene_ids": [
+        "full-071",
+        "full-072"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B013-U01",
+      "batch_file": "batches/B013.json",
+      "scene_ids": [
+        "full-073",
+        "full-074"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B013-U02",
+      "batch_file": "batches/B013.json",
+      "scene_ids": [
+        "full-075",
+        "full-076"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B013-U03",
+      "batch_file": "batches/B013.json",
+      "scene_ids": [
+        "full-077",
+        "full-078"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B014-U01",
+      "batch_file": "batches/B014.json",
+      "scene_ids": [
+        "full-079",
+        "full-080"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B014-U02",
+      "batch_file": "batches/B014.json",
+      "scene_ids": [
+        "full-081",
+        "full-082"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B014-U03",
+      "batch_file": "batches/B014.json",
+      "scene_ids": [
+        "full-083",
+        "full-084"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B015-U01",
+      "batch_file": "batches/B015.json",
+      "scene_ids": [
+        "full-085",
+        "full-086"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B015-U02",
+      "batch_file": "batches/B015.json",
+      "scene_ids": [
+        "full-087",
+        "full-088"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B015-U03",
+      "batch_file": "batches/B015.json",
+      "scene_ids": [
+        "full-089",
+        "full-090"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B016-U01",
+      "batch_file": "batches/B016.json",
+      "scene_ids": [
+        "full-091",
+        "full-092"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B016-U02",
+      "batch_file": "batches/B016.json",
+      "scene_ids": [
+        "full-093",
+        "full-094"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B016-U03",
+      "batch_file": "batches/B016.json",
+      "scene_ids": [
+        "full-095",
+        "full-096"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B017-U01",
+      "batch_file": "batches/B017.json",
+      "scene_ids": [
+        "full-097",
+        "full-098"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B017-U02",
+      "batch_file": "batches/B017.json",
+      "scene_ids": [
+        "full-099",
+        "full-100"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B017-U03",
+      "batch_file": "batches/B017.json",
+      "scene_ids": [
+        "full-101",
+        "full-102"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B018-U01",
+      "batch_file": "batches/B018.json",
+      "scene_ids": [
+        "full-103",
+        "full-104"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B018-U02",
+      "batch_file": "batches/B018.json",
+      "scene_ids": [
+        "full-105",
+        "full-106"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B018-U03",
+      "batch_file": "batches/B018.json",
+      "scene_ids": [
+        "full-107",
+        "full-108"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B019-U01",
+      "batch_file": "batches/B019.json",
+      "scene_ids": [
+        "full-109",
+        "full-110"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B019-U02",
+      "batch_file": "batches/B019.json",
+      "scene_ids": [
+        "full-111",
+        "full-112"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B019-U03",
+      "batch_file": "batches/B019.json",
+      "scene_ids": [
+        "full-113",
+        "full-114"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B020-U01",
+      "batch_file": "batches/B020.json",
+      "scene_ids": [
+        "full-115",
+        "full-116"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B020-U02",
+      "batch_file": "batches/B020.json",
+      "scene_ids": [
+        "full-117",
+        "full-118"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B020-U03",
+      "batch_file": "batches/B020.json",
+      "scene_ids": [
+        "full-119",
+        "full-120"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B021-U01",
+      "batch_file": "batches/B021.json",
+      "scene_ids": [
+        "full-121",
+        "full-122"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B021-U02",
+      "batch_file": "batches/B021.json",
+      "scene_ids": [
+        "full-123",
+        "full-124"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B021-U03",
+      "batch_file": "batches/B021.json",
+      "scene_ids": [
+        "full-125",
+        "full-126"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B022-U01",
+      "batch_file": "batches/B022.json",
+      "scene_ids": [
+        "full-127",
+        "full-128"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B022-U02",
+      "batch_file": "batches/B022.json",
+      "scene_ids": [
+        "full-129",
+        "full-130"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B022-U03",
+      "batch_file": "batches/B022.json",
+      "scene_ids": [
+        "full-131",
+        "full-132"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B023-U01",
+      "batch_file": "batches/B023.json",
+      "scene_ids": [
+        "full-133",
+        "full-134"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B023-U02",
+      "batch_file": "batches/B023.json",
+      "scene_ids": [
+        "full-135",
+        "full-136"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B023-U03",
+      "batch_file": "batches/B023.json",
+      "scene_ids": [
+        "full-137",
+        "full-138"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B024-U01",
+      "batch_file": "batches/B024.json",
+      "scene_ids": [
+        "full-139",
+        "full-140"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    },
+    {
+      "work_unit_id": "B024-U02",
+      "batch_file": "batches/B024.json",
+      "scene_ids": [
+        "full-141"
+      ],
+      "selection": "Skip already approved assets; real checkpoints override this static grouping."
+    }
+  ]
+}
